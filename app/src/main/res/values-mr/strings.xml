@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DRAFT translations — must be reviewed by a native Marathi speaker and
+     ideally an agriculture student or officer before any public demo.
+     Mark: needs_review=true for all agronomy terms. -->
+<resources>
+    <string name="app_name">AgroDoc</string>
+
+    <!-- Language screen -->
+    <string name="lang_prompt">भाषा निवडा</string>
+    <string name="lang_kannada">ಕನ್ನಡ</string>
+    <string name="lang_hindi">हिन्दी</string>
+    <string name="lang_marathi">मराठी</string>
+    <string name="lang_english">English</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">मुखपृष्ठ</string>
+    <string name="nav_history">इतिहास</string>
+    <string name="nav_library">ग्रंथालय</string>
+    <string name="nav_settings">सेटिंग्ज</string>
+
+    <!-- Home screen -->
+    <string name="scan_leaf">पान स्कॅन करा</string>
+    <string name="from_gallery">गॅलरीतून निवडा</string>
+    <string name="recent_scans">अलीकडील स्कॅन्स</string>
+    <string name="no_recent_scans">अद्याप कोणतेही स्कॅन नाहीत.</string>
+
+    <!-- Camera screen -->
+    <string name="camera_tip">एक पान सादी पृष्ठभागावर ठेवा</string>
+    <string name="camera_hint_blur">कॅमेरा स्थिर ठेवा</string>
+    <string name="camera_hint_dark">चांगल्या प्रकाशात जा</string>
+    <string name="camera_hint_close">पानाजवळ जा</string>
+    <string name="flash_toggle">फ्लॅश बदला</string>
+    <string name="shutter">फोटो घ्या</string>
+
+    <!-- Result screen -->
+    <string name="photo">फोटो</string>
+    <string name="heatmap">हीटमॅप</string>
+    <string name="both">दोन्ही</string>
+    <string name="confidence">शक्यता</string>
+    <string name="top_alternatives">पर्याय</string>
+    <string name="analyzing">विश्लेषण सुरू आहे…</string>
+    <string name="save">जतन करा</string>
+    <string name="share">शेअर करा</string>
+    <string name="retake">पुन्हा फोटो घ्या</string>
+    <string name="why_result">हा निकाल का?</string>
+    <string name="speak">मोठ्याने वाचा</string>
+
+    <!-- Trust -->
+    <string name="trust_high">विश्वास: जास्त ✓</string>
+    <string name="trust_medium">विश्वास: मध्यम ⚠</string>
+    <string name="trust_low">विश्वास: कमी ✗</string>
+    <string name="reason_ok">मॉडेलने मुख्यतः पानावर लक्ष दिले.</string>
+    <string name="reason_bg">मॉडेलने पार्श्वभूमी पाहिली. कृपया पुन्हा फोटो घ्या.</string>
+    <string name="reason_unsure">मॉडेलला खात्री नाही. निकाल चुकीचा असू शकतो.</string>
+    <string name="low_trust_caution">निकाल चुकीचा असू शकतो — चांगल्या परिस्थितीत पुन्हा फोटो घ्या.</string>
+
+    <!-- Explanation template -->
+    <string name="explanation_template">मॉडेलने पानाच्या %1$s भागावर लक्ष केंद्रित केले (%2$d%% क्षेत्र).</string>
+    <string name="region_top_left">वरच्या-डाव्या</string>
+    <string name="region_top_center">वरच्या-मध्य</string>
+    <string name="region_top_right">वरच्या-उजव्या</string>
+    <string name="region_center_left">डाव्या</string>
+    <string name="region_center">मध्य</string>
+    <string name="region_center_right">उजव्या</string>
+    <string name="region_bottom_left">खालच्या-डाव्या</string>
+    <string name="region_bottom_center">खालच्या-मध्य</string>
+    <string name="region_bottom_right">खालच्या-उजव्या</string>
+
+    <!-- History screen -->
+    <string name="history_title">स्कॅन इतिहास</string>
+    <string name="history_empty">कोणतेही जतन केलेले स्कॅन नाहीत.</string>
+    <string name="filter_all">सर्व पिके</string>
+    <string name="delete_scan">स्कॅन हटवा</string>
+    <string name="clear_history">सर्व इतिहास साफ करा</string>
+    <string name="clear_history_confirm">सर्व स्कॅन इतिहास हटवायचा का?</string>
+    <string name="confirm">पुष्टी करा</string>
+    <string name="cancel">रद्द करा</string>
+
+    <!-- Library screen -->
+    <string name="library_title">रोग ग्रंथालय</string>
+    <string name="library_empty">काहीही आढळले नाही.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">सेटिंग्ज</string>
+    <string name="settings_language">भाषा</string>
+    <string name="settings_voice">आवाज वाचन</string>
+    <string name="settings_voice_unavailable">आवाज डेटा स्थापित नाही. सिस्टम सेटिंग्ज → Text-to-speech मध्ये %1$s जोडा.</string>
+    <string name="settings_text_size">मजकूर आकार</string>
+    <string name="settings_text_size_s">लहान</string>
+    <string name="settings_text_size_m">मध्यम</string>
+    <string name="settings_text_size_l">मोठा</string>
+    <string name="settings_heatmap_style">हीटमॅप रंग शैली</string>
+    <string name="settings_heatmap_default">डीफॉल्ट</string>
+    <string name="settings_heatmap_cb">वर्णांध-सुरक्षित</string>
+    <string name="settings_clear_history">स्कॅन इतिहास साफ करा</string>
+    <string name="settings_version">अॅप आवृत्ती</string>
+
+    <!-- About -->
+    <string name="about_title">विषयी / मॉडेल कार्ड</string>
+    <string name="about_datasets">डेटासेट्स</string>
+    <string name="about_metrics">चाचणी मेट्रिक्स</string>
+    <string name="about_limitations">ज्ञात मर्यादा</string>
+    <string name="about_licences">परवाने आणि श्रेय</string>
+    <string name="about_plantvillage_credit">PlantVillage डेटासेट (Penn State) — प्रशिक्षणासाठी वापरले.</string>
+    <string name="about_plantdoc_credit">PlantDoc डेटासेट (Singh et al., 2020, CC BY 4.0) — क्षेत्र मूल्यांकनासाठी.</string>
+
+    <!-- Disclaimer -->
+    <string name="disclaimer">AgroDoc हे फक्त एक साहाय्यक साधन आहे. गंभीर समस्या स्थानिक कृषी अधिकारी किंवा कृषी विज्ञान केंद्राला दाखवा.</string>
+
+    <!-- Errors / status -->
+    <string name="model_missing">मॉडेल फाइल्स आढळल्या नाहीत. README पहा.</string>
+    <string name="error_generic">काहीतरी चुकले. कृपया पुन्हा प्रयत्न करा.</string>
+    <string name="image_quality_poor">प्रतिमेची गुणवत्ता खराब आहे. पुन्हा घेऊ शकता किंवा पुढे जाऊ शकता.</string>
+    <string name="continue_anyway">तरीही पुढे जा</string>
+    <string name="loading">लोड होत आहे…</string>
+
+    <!-- Master Prompt Features Expansion -->
+    <string name="nav_crops">पिके</string>
+    <string name="nav_assistant">मार्गदर्शक</string>
+    <string name="nav_fertilizer">खत</string>
+    <string name="weather_title">हवामान अंदाज</string>
+    <string name="weather_humidity">आर्द्रता</string>
+    <string name="weather_rain">पाऊस</string>
+    <string name="weather_wind">वारा</string>
+    <string name="weather_today">आज</string>
+    <string name="weather_updated">%1$s पूर्वी अद्ययावत</string>
+    <string name="weather_offline_notice">ऑफलाइन — संग्रहित माहिती</string>
+    <string name="weather_pull_to_refresh">रिफ्रेश करण्यासाठी ओढा</string>
+    <string name="district_select">जिल्हा निवडा</string>
+    <string name="state_select">राज्य निवडा</string>
+    <string name="disease_alerts">रोग सूचना</string>
+    <string name="no_alerts">या आठवड्यात तुमच्या पिकांसाठी कोणतीही गंभीर सूचना नाही.</string>
+    <string name="risk_high">उच्च धोका</string>
+    <string name="risk_moderate">मध्यम धोका</string>
+    <string name="risk_low">कमी धोका</string>
+    <string name="crops_title">पिकांची माहिती</string>
+    <string name="crops_search">पिके शोधा…</string>
+    <string name="filter_season">हंगाम</string>
+    <string name="filter_all_seasons">सर्व हंगाम</string>
+    <string name="my_crops">माझी पिके</string>
+    <string name="add_to_my_crops">माझ्या पिकांमध्ये जोडा</string>
+    <string name="remove_from_my_crops">माझ्या पिकांतून काढा</string>
+    <string name="suitable_climate">योग्य हवामान व जमीन</string>
+    <string name="growth_stages">वाढीच्या अवस्था</string>
+    <string name="suitability_badge">पेरणी योग्यता</string>
+    <string name="calculate_fertilizer">खताचे प्रमाण काढा</string>
+    <string name="view_diseases">मुख्य रोग</string>
+    <string name="soil_types">जमिनीचे प्रकार</string>
+    <string name="ideal_temp">योग्य तापमान</string>
+    <string name="annual_rainfall">वार्षिक पाऊस</string>
+    <string name="duration_days">कालावधी</string>
+    <string name="days_range">%1$d–%2$d दिवस</string>
+    <string name="assistant_title">कृषी ज्ञान मार्गदर्शक</string>
+    <string name="assistant_ask_hint">पीक, रोग, पेरणी किंवा काळजीबद्दल विचारा…</string>
+    <string name="assistant_sources">अधिकृत संदर्भ</string>
+    <string name="assistant_suggested">सुचवलेले प्रश्न</string>
+    <string name="assistant_send">विचारा</string>
+    <string name="assistant_empty">कर्नाटकातील पिके, रोगांची लक्षणे, हवामान किंवा खतांबद्दल प्रश्न विचारा.</string>
+    <string name="fertilizer_title">खत व्यवस्थापन</string>
+    <string name="select_crop">पीक निवडा</string>
+    <string name="area_input">जमिनीचे क्षेत्र</string>
+    <string name="area_unit">एकक</string>
+    <string name="unit_acre">एकर</string>
+    <string name="unit_ha">हेक्टर</string>
+    <string name="unit_guntha">गुंठा</string>
+    <string name="fertilizer_schedule">टप्प्याटप्प्याने खत देणे</string>
+    <string name="organic_manure">सेंद्रिय खते</string>
+    <string name="micronutrients_title">सूक्ष्म अन्नद्रव्ये</string>
+    <string name="caution_notes">काळजी व सूचना</string>
+    <string name="save_plan">नियोजन जतन करा</string>
+    <string name="plan_saved">नियोजन जतन केले</string>
+    <string name="weather_signal">हवामान घटक</string>
+    <string name="blend_slider">फोटो / हीटमॅप मिश्रण</string>
+    <string name="explanation_dialog_title">हा रोग का झाला?</string>
+    <string name="consult_officer">अधिकाऱ्यांचा सल्ला कधी घ्यावा</string>
+    <string name="scan_manual_mode">केवळ माहिती — या पिकासाठी स्कॅनिंग अद्याप उपलब्ध नाही</string>
+    <string name="privacy_statement_offline">100% ऑफलाइन वचन: ॲग्रोडॉक पूर्णपणे तुमच्या फोनवर चालते. इंटरनेट परवानगी नाही, कोणताही डेटा अपलोड केला जात नाही.</string>
+    <string name="privacy_statement_connected">गोपनीयता सर्वोच्च: पानाच्या फोटो आणि स्कॅन कधीही फोनबाहेर जात नाहीत. इंटरनेटचा वापर केवळ ओपन-मीटिओवरून स्थानिक हवामान माहिती मिळवण्यासाठी होतो.</string>
+    <string name="weather_attribution">ओपन-मीटिओ (CC BY 4.0) द्वारे हवामान माहिती प्रदान केली आहे.</string>
+    <string name="offline_flavor_tag">ऑफलाइन आवृत्ती (नेटवर्क विरहित)</string>
+    <string name="connected_flavor_tag">कनेक्टेड आवृत्ती (हवामान सक्षम)</string>
+    <string name="settings_weather_location">हवामानाचे ठिकाण</string>
+    <string name="settings_use_current_location">हवामानासाठी सध्याचे ठिकाण वापरा</string>
+    <string name="settings_choose_state_district">राज्य आणि जिल्हा निवडा</string>
+    <string name="settings_location_approx">यंत्राचे अंदाजे ठिकाण वापरत आहे</string>
+    <string name="settings_location_unavailable">ठिकाण उपलब्ध नाही. जिल्हा स्वतः निवडा.</string>
+    <string name="settings_location_permission">हा पर्याय वापरण्यासाठी ठिकाणाची परवानगी द्या.</string>
+    <string name="settings_location_finding">अंदाजे ठिकाण शोधत आहे…</string>
+    <string name="result_title">निदानाचा निष्कर्ष</string>
+    <string name="result_model_confidence">मॉडेलचा विश्वास: %1$d%%</string>
+    <string name="result_other_predictions">इतर अंदाज</string>
+    <string name="result_screening_notice">फोटो मॉडेलचा निष्कर्ष प्राथमिक तपासणीसाठी आहे. उपचारापूर्वी शेतातील लक्षणे तपासा; शंका असल्यास कृषी अधिकाऱ्यांशी संपर्क साधा.</string>
+    <string name="result_tts_missing">या भाषेचा आवाज स्थापित नाही. Android Text-to-speech सेटिंगमध्ये जोडा.</string>
+    <string name="disease_model_supported">प्रतिमा मॉडेलद्वारे ओळख समर्थित</string>
+    <string name="disease_info_only">माहितीसाठी; प्रतिमा मॉडेल हा रोग ओळखत नाही</string>
+    <string name="disease_symptoms">लक्षणे</string>
+    <string name="disease_cause_spread">संभाव्य कारण आणि प्रसार</string>
+    <string name="disease_weather">रोगास अनुकूल ठरू शकणारे हवामान</string>
+    <string name="disease_prevention">प्रतिबंध</string>
+    <string name="disease_management">व्यवस्थापन</string>
+    <string name="disease_consult">अधिकाऱ्यांचा सल्ला कधी घ्यावा</string>
+    <string name="crop_source_status">स्रोत: %1$s • %2$s</string>
+    <string name="crop_soil_ph">मातीचा pH</string>
+    <string name="fertilizer_soil_test">ऐच्छिक माती परीक्षण (किलो/हेक्टर)</string>
+    <string name="fertilizer_nitrogen">नत्र (N)</string>
+    <string name="fertilizer_phosphorus">स्फुरद (P₂O₅)</string>
+    <string name="fertilizer_potassium">पालाश (K₂O)</string>
+    <string name="fertilizer_application_timing">खत देण्याची वेळ</string>
+    <string name="fertilizer_calculate_save">गणना करून योजना जतन करा</string>
+</resources>

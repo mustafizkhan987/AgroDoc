@@ -1,0 +1,1754 @@
+[
+  {
+    "cropId": "paddy",
+    "recommendedNpkKgPerHa": [
+      100.0,
+      50.0,
+      50.0
+    ],
+    "fymTonPerHa": 10.0,
+    "vermicompostTonPerHa": 2.5,
+    "splits": [
+      {
+        "stage": "basal",
+        "name": {
+          "en": "Basal (At transplanting/sowing)",
+          "kn": "ನಾಟಿ/ಬಿತ್ತನೆ ಸಮಯದಲ್ಲಿ (ಮೂಲ)",
+          "hi": "बुवाई/रोपाई के समय (बेसल)",
+          "mr": "पेरणी/लावणीच्या वेळी"
+        },
+        "nPercent": 50,
+        "pPercent": 100,
+        "kPercent": 50,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply full P2O5, 50% N and 50% K2O before final puddling/leveling.",
+          "kn": "ಕೊನೆಯ ಉಳುಮೆ ವೇಳೆ ಪೂರ್ಣ ರಂಜಕ, 50% ಸಾರಜನಕ ಮತ್ತು 50% ಪೊಟ್ಯಾಶ್ ಮಣ್ಣಿಗೆ ಸೇರಿಸಿ.",
+          "hi": "अंतिम जुताई के समय पूरी फास्फोरस, आधी नाइट्रोजन और पोटाश डालें।",
+          "mr": "शेवटच्या मशागतीवेळी संपूर्ण स्फुरद, 50% नत्र आणि 50% पालाश द्यावे."
+        }
+      },
+      {
+        "stage": "tillering",
+        "name": {
+          "en": "Active Tillering (20-25 DAT)",
+          "kn": "ಕವಲೊಡೆಯುವ ಹಂತ (20-25 ದಿನ)",
+          "hi": "कल्ले फूटने के समय (20-25 दिन)",
+          "mr": "फुटवे फुटण्याच्या वेळी (20-25 दिवस)"
+        },
+        "nPercent": 25,
+        "pPercent": 0,
+        "kPercent": 0,
+        "timingDays": "20-25",
+        "instructions": {
+          "en": "Top dress 25% Nitrogen when soil has a thin film of water.",
+          "kn": "25% ಸಾರಜನಕವನ್ನು ತೆಳುವಾದ ನೀರಿನ ಮಟ್ಟದಲ್ಲಿ ಮೇಲುಗೊಬ್ಬರವಾಗಿ ನೀಡಿ.",
+          "hi": "खेत में हल्का पानी रहने पर 25% नाइट्रोजन का छिड़काव करें।",
+          "mr": "हलका ओलावा असताना 25% नत्र वरखत म्हणून द्या."
+        }
+      },
+      {
+        "stage": "panicle_initiation",
+        "name": {
+          "en": "Panicle Initiation (40-45 DAT)",
+          "kn": "ತೆನೆ ಹೊರಬರುವ ಮುನ್ನ (40-45 ದಿನ)",
+          "hi": "बाली निकलने से पूर्व (40-45 दिन)",
+          "mr": "ओंबी बाहेर पडण्यापूर्वी (40-45 दिवस)"
+        },
+        "nPercent": 25,
+        "pPercent": 0,
+        "kPercent": 50,
+        "timingDays": "40-45",
+        "instructions": {
+          "en": "Top dress remaining 25% Nitrogen and 50% Potash for healthy grain formation.",
+          "kn": "ಉಳಿದ 25% ಸಾರಜನಕ ಮತ್ತು 50% ಪೊಟ್ಯಾಶ್ ನೀಡಿ ಕಾಳು ಗಟ್ಟಿಯಾಗಲು ಸಹಕರಿಸಿ.",
+          "hi": "दाने भरने के लिए बची 25% नाइट्रोजन और 50% पोटाश डालें।",
+          "mr": "उर्वरित 25% नत्र आणि 50% पालाश दाणे भरण्यासाठी द्या."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Apply 25 kg/ha Zinc Sulphate once every 2 years in zinc-deficient soils.",
+      "kn": "ಸತುವಿನ ಕೊರತೆ ಇದ್ದರೆ ಪ್ರತಿ 2 ವರ್ಷಕ್ಕೊಮ್ಮೆ ಹೆಕ್ಟೇರಿಗೆ 25 ಕೆಜಿ ಜಿಂಕ್ ಸಲ್ಫೇಟ್ ಹಾಕಿ.",
+      "hi": "जिंक की कमी होने पर 25 किग्रा जिंक सल्फेट प्रति हेक्टेयर डालें।",
+      "mr": "झिंक कमतरता असल्यास 25 किलो प्रति हेक्टर झिंक सल्फेट द्या."
+    },
+    "cautionNotes": {
+      "en": "Do not top dress nitrogen during heavy rains or on standing deep water. Drain excess water first.",
+      "kn": "ಭಾರಿ ಮಳೆ ಅಥವಾ ಆಳವಾದ ನೀರು ನಿಂತಾಗ ಯೂರಿಯಾ ಹಾಕಬೇಡಿ. ನೀರನ್ನು ಬಸಿದು ಹಾಕಿ.",
+      "hi": "तेज बारिश या गहरे पानी में यूरिया न डालें।",
+      "mr": "जास्त पाण्यात किंवा मुसळधार पावसात युरिया टाकू नका."
+    },
+    "source": "UAS Bengaluru Package of Practices (Field Crops 2022)"
+  },
+  {
+    "cropId": "ragi",
+    "recommendedNpkKgPerHa": [
+      50.0,
+      40.0,
+      25.0
+    ],
+    "fymTonPerHa": 7.5,
+    "vermicompostTonPerHa": 2.0,
+    "splits": [
+      {
+        "stage": "basal",
+        "name": {
+          "en": "Basal (At sowing/transplanting)",
+          "kn": "ಬಿತ್ತನೆ/ನಾಟಿ ಸಮಯದಲ್ಲಿ",
+          "hi": "बुवाई के समय",
+          "mr": "पेरणीच्या वेळी"
+        },
+        "nPercent": 50,
+        "pPercent": 100,
+        "kPercent": 100,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply 50% Nitrogen and 100% Phosphorus and Potash in furrow at sowing.",
+          "kn": "ಬಿತ್ತನೆ ಸಾಲಿನಲ್ಲಿ 50% ಸಾರಜನಕ, ಪೂರ್ಣ ರಂಜಕ ಮತ್ತು ಪೊಟ್ಯಾಶ್ ಹಾಕಿ.",
+          "hi": "बुवाई के समय 50% नाइट्रोजन, पूरी फास्फोरस व पोटाश कूंड़ में डालें।",
+          "mr": "पेरणीच्या वेळी 50% नत्र, संपूर्ण स्फुरद व पालाश ओळीत द्यावे."
+        }
+      },
+      {
+        "stage": "tillering",
+        "name": {
+          "en": "Tillering (25-30 DAS)",
+          "kn": "ಕವಲೊಡೆಯುವ ಹಂತ (25-30 ದಿನ)",
+          "hi": "कल्ले बनते समय (25-30 दिन)",
+          "mr": "फुटवे फुटताना (25-30 दिवस)"
+        },
+        "nPercent": 50,
+        "pPercent": 0,
+        "kPercent": 0,
+        "timingDays": "25-30",
+        "instructions": {
+          "en": "Top dress remaining 50% Nitrogen after weeding, when soil has good moisture.",
+          "kn": "ಕಳೆ ಕೀಳುವಿಕೆಯ ನಂತರ ಮಣ್ಣಿನಲ್ಲಿ ತೇವಾಂಶವಿದ್ದಾಗ 50% ಸಾರಜನಕ ಮೇಲುಗೊಬ್ಬರವಾಗಿ ನೀಡಿ.",
+          "hi": "निराई-गुड़ाई के बाद नमी होने पर शेष 50% नाइट्रोजन डालें।",
+          "mr": "खुरपणीनंतर ओलावा असताना उरलेले 50% नत्र द्यावे."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Foliar spray of 19:19:19 @ 1% at flowering enhances grain weight under rainfed conditions.",
+      "kn": "ಮಳೆಯಾಶ್ರಿತ ಬೆಳೆಗೆ ಹೂ ಬಿಡುವಾಗ 19:19:19 ದ್ರಾವಣ 1% ಸಿಂಪಡಿಸಿ.",
+      "hi": "फूल आने पर 1% 19:19:19 का छिड़काव उपज बढ़ाता है।",
+      "mr": "फुलोऱ्याच्या वेळी 1% 19:19:19 फवारावे."
+    },
+    "cautionNotes": {
+      "en": "Ensure proper soil moisture before top dressing; avoid application under dry drought stress.",
+      "kn": "ಮೇಲುಗೊಬ್ಬರ ಹಾಕುವಾಗ ಮಣ್ಣಿನಲ್ಲಿ ತೇವಾಂಶವಿರಲಿ; ಒಣ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ ಹಾಕಬೇಡಿ.",
+      "hi": "सूखे की स्थिति में यूरिया न डालें।",
+      "mr": "कोरड्या वातावरणात खत देऊ नका."
+    },
+    "source": "UAS Bengaluru Package of Practices (Millets 2022)"
+  },
+  {
+    "cropId": "maize",
+    "recommendedNpkKgPerHa": [
+      150.0,
+      75.0,
+      40.0
+    ],
+    "fymTonPerHa": 10.0,
+    "vermicompostTonPerHa": 3.0,
+    "splits": [
+      {
+        "stage": "basal",
+        "name": {
+          "en": "Basal (At sowing)",
+          "kn": "ಬಿತ್ತನೆ ಸಮಯದಲ್ಲಿ",
+          "hi": "बुवाई के समय",
+          "mr": "पेरणीच्या वेळी"
+        },
+        "nPercent": 33,
+        "pPercent": 100,
+        "kPercent": 100,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply 1/3rd Nitrogen, entire Phosphorus and Potash 5 cm away and below seed.",
+          "kn": "1/3 ಭಾಗ ಸಾರಜನಕ, ಸಂಪೂರ್ಣ ರಂಜಕ ಮತ್ತು ಪೊಟ್ಯಾಶ್ ಬಿತ್ತನೆ ಸಾಲಿನ ಪಕ್ಕದಲ್ಲಿ ಹಾಕಿ.",
+          "hi": "1/3 नाइट्रोजन, पूरी फास्फोरस व पोटाश बीज से 5 सेमी दूर डालें।",
+          "mr": "1/3 नत्र, पूर्ण स्फुरद व पालाश बियाण्याजवळ द्यावे."
+        }
+      },
+      {
+        "stage": "knee_high",
+        "name": {
+          "en": "Knee-High Stage (25-30 DAS)",
+          "kn": "ಮಂಡಿ ಎತ್ತರದ ಹಂತ (25-30 ದಿನ)",
+          "hi": "घुटने तक की अवस्था (25-30 दिन)",
+          "mr": "गुडघा उंचीची अवस्था (25-30 दिवस)"
+        },
+        "nPercent": 33,
+        "pPercent": 0,
+        "kPercent": 0,
+        "timingDays": "25-30",
+        "instructions": {
+          "en": "Apply 1/3rd Nitrogen followed by earthing up.",
+          "kn": "1/3 ಭಾಗ ಸಾರಜನಕ ಹಾಕಿ ಬುಡಕ್ಕೆ ಮಣ್ಣು ಏರಿಸಿ.",
+          "hi": "1/3 नाइट्रोजन डालकर मिट्टी चढ़ाएँ।",
+          "mr": "1/3 नत्र देऊन झाडाला माती लावावी."
+        }
+      },
+      {
+        "stage": "tasseling",
+        "name": {
+          "en": "Tasseling / Silking (45-50 DAS)",
+          "kn": "ಹೂ ಮತ್ತು ತೆನೆ ಬರುವ ಹಂತ (45-50 ದಿನ)",
+          "hi": "मंजरी आने पर (45-50 दिन)",
+          "mr": "तुरा येताना (45-50 दिवस)"
+        },
+        "nPercent": 34,
+        "pPercent": 0,
+        "kPercent": 0,
+        "timingDays": "45-50",
+        "instructions": {
+          "en": "Apply remaining Nitrogen before tassel emergence; ensure irrigation.",
+          "kn": "ಉಳಿದ ಸಾರಜನಕ ನೀಡಿ ನೀರು ಹಾಯಿಸಿ.",
+          "hi": "अंतिम नाइट्रोजन देकर तुरंत सिंचाई करें।",
+          "mr": "उरलेले नत्र देऊन पाणी द्यावे."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Zinc deficiency causes white bud; apply ZnSO4 @ 20 kg/ha basal.",
+      "kn": "ಬಿಳಿ ಮೊಗ್ಗು ರೋಗ ತಡೆಗಟ್ಟಲು ಹೆಕ್ಟೇರಿಗೆ 20 ಕೆಜಿ ಜಿಂಕ್ ಸಲ್ಫೇಟ್ ಹಾಕಿ.",
+      "hi": "सफेद कली रोग से बचाव हेतु 20 किग्रा जिंक सल्फेट डालें।",
+      "mr": "पांढऱ्या कोंबांच्या समस्येवर 20 किलो झिंक सल्फेट द्या."
+    },
+    "cautionNotes": {
+      "en": "Never place urea in direct contact with seeds as it causes seedling scorch.",
+      "kn": "ಯೂರಿಯಾ ಬೀಜಕ್ಕೆ ನೇರವಾಗಿ ತಾಗದಂತೆ 5 ಸೆಂ.ಮೀ ದೂರದಲ್ಲಿ ಹಾಕಿ.",
+      "hi": "यूरिया को बीज के सीधे संपर्क में न आने दें।",
+      "mr": "युरिया बियांच्या थेट संपर्कात येऊ देऊ नका."
+    },
+    "source": "UAS Dharwad Maize Package of Practices (2021)"
+  },
+  {
+    "cropId": "jowar",
+    "recommendedNpkKgPerHa": [
+      80.0,
+      40.0,
+      40.0
+    ],
+    "fymTonPerHa": 6.0,
+    "vermicompostTonPerHa": 2.0,
+    "splits": [
+      {
+        "stage": "basal",
+        "name": {
+          "en": "Basal",
+          "kn": "ಬಿತ್ತನೆ ಸಮಯದಲ್ಲಿ",
+          "hi": "बुवाई के समय",
+          "mr": "पेरणीच्या वेळी"
+        },
+        "nPercent": 50,
+        "pPercent": 100,
+        "kPercent": 100,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply half N and all P & K at sowing in lines.",
+          "kn": "ಅರ್ಧ ಸಾರಜನಕ ಮತ್ತು ಪೂರ್ಣ ರಂಜಕ, ಪೊಟ್ಯಾಶ್ ಸಾಲಿನಲ್ಲಿ ಹಾಕಿ.",
+          "hi": "आधी नाइट्रोजन और पूरी फास्फोरस व पोटाश बुवाई पर डालें।",
+          "mr": "अर्धे नत्र, पूर्ण स्फुरद व पालाश पेरणीवेळी द्यावे."
+        }
+      },
+      {
+        "stage": "vegetative",
+        "name": {
+          "en": "30-35 DAS",
+          "kn": "30-35 ದಿನಗಳ ನಂತರ",
+          "hi": "30-35 दिन बाद",
+          "mr": "30-35 दिवसांनी"
+        },
+        "nPercent": 50,
+        "pPercent": 0,
+        "kPercent": 0,
+        "timingDays": "30-35",
+        "instructions": {
+          "en": "Top dress remaining 50% N with adequate soil moisture.",
+          "kn": "ಉಳಿದ ಅರ್ಧ ಸಾರಜನಕ ತೇವಾಂಶವಿರುವಾಗ ಮೇಲುಗೊಬ್ಬರವಾಗಿ ನೀಡಿ.",
+          "hi": "शेष नाइट्रोजन नमी की दशा में डालें।",
+          "mr": "उर्वरित नत्र ओलाव्यात द्यावे."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Sulphur @ 20 kg/ha in black soils improves grain protein and yield.",
+      "kn": "ಕಪ್ಪು ಮಣ್ಣಿಗೆ 20 ಕೆಜಿ ಗಂಧಕ (ಸಲ್ಫರ್) ಹಾಕಿದರೆ ಉತ್ತಮ ಇಳುವರಿ.",
+      "hi": "20 किग्रा गंधक प्रति हेक्टेयर डालने से पैदावार बढ़ती है।",
+      "mr": "20 किलो गंधक प्रति हेक्टर वापरा."
+    },
+    "cautionNotes": {
+      "en": "Avoid broadcasting under windy conditions.",
+      "kn": "ಗಾಳಿ ಜೋರಾಗಿದ್ದಾಗ ಗೊಬ್ಬರವನ್ನು ಎರಚಬೇಡಿ.",
+      "hi": "हवा चलने पर छिड़काव न करें।",
+      "mr": "वाऱ्यात खत फेकू नका."
+    },
+    "source": "UAS Dharwad Sorghum Guidelines"
+  },
+  {
+    "cropId": "tomato",
+    "recommendedNpkKgPerHa": [
+      180.0,
+      120.0,
+      150.0
+    ],
+    "fymTonPerHa": 25.0,
+    "vermicompostTonPerHa": 5.0,
+    "splits": [
+      {
+        "stage": "basal",
+        "name": {
+          "en": "Basal",
+          "kn": "ನಾಟಿ ಸಮಯದಲ್ಲಿ",
+          "hi": "रोपाई पर",
+          "mr": "लावणीवेळी"
+        },
+        "nPercent": 30,
+        "pPercent": 100,
+        "kPercent": 30,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply 30% N, 100% P, and 30% K in planting beds before mulching or transplanting.",
+          "kn": "ನಾಟಿ ಮುನ್ನ 30% ಸಾರಜನಕ, ಪೂರ್ಣ ರಂಜಕ ಮತ್ತು 30% ಪೊಟ್ಯಾಶ್ ಬೆಡ್‌ಗಳಿಗೆ ಹಾಕಿ.",
+          "hi": "रोपाई से पहले 30% नत्र, पूरी फास्फोरस व 30% पोटाश डालें।",
+          "mr": "लावणीपूर्वी 30% नत्र, पूर्ण स्फुरद व 30% पालाश द्यावे."
+        }
+      },
+      {
+        "stage": "vegetative",
+        "name": {
+          "en": "Vegetative (20-25 DAT)",
+          "kn": "ಬೆಳವಣಿಗೆ ಹಂತ (20-25 ದಿನ)",
+          "hi": "वानस्पतिक अवस्था (20-25 दिन)",
+          "mr": "शाकीय वाढ (20-25 दिवस)"
+        },
+        "nPercent": 35,
+        "pPercent": 0,
+        "kPercent": 35,
+        "timingDays": "20-25",
+        "instructions": {
+          "en": "Top dress 35% N and 35% K around the plants followed by irrigation.",
+          "kn": "35% ಸಾರಜನಕ ಮತ್ತು 35% ಪೊಟ್ಯಾಶ್ ಗಿಡದ ಸುತ್ತ ಹಾಕಿ ನೀರು ಕೊಡಿ.",
+          "hi": "35% नत्र व 35% पोटाश पौधों के पास डालकर पानी दें।",
+          "mr": "35% नत्र व 35% पालाश झाडाभोवती देऊन पाणी द्यावे."
+        }
+      },
+      {
+        "stage": "fruiting",
+        "name": {
+          "en": "Fruit Development (45-50 DAT)",
+          "kn": "ಕಾಯಿ ಕಟ್ಟುವ ಹಂತ (45-50 ದಿನ)",
+          "hi": "फल विकास (45-50 दिन)",
+          "mr": "फळधारणा (45-50 दिवस)"
+        },
+        "nPercent": 35,
+        "pPercent": 0,
+        "kPercent": 35,
+        "timingDays": "45-50",
+        "instructions": {
+          "en": "Apply balance 35% N and 35% K to sustain fruit size and firm skin.",
+          "kn": "ಉಳಿದ 35% ಸಾರಜನಕ ಮತ್ತು 35% ಪೊಟ್ಯಾಶ್ ನೀಡಿ ಕಾಯಿ ಗಾತ್ರ ಹೆಚ್ಚಿಸಿ.",
+          "hi": "फल की चमक और आकार के लिए बची खुराक दें।",
+          "mr": "फळांचा आकार व चमक वाढवण्यासाठी उर्वरित खत द्या."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Foliar spray Calcium Nitrate (0.5%) + Boron (0.2%) at flowering to prevent Blossom End Rot.",
+      "kn": "ಹೂ ಬಿಡುವಾಗ ಕ್ಯಾಲ್ಸಿಯಂ ನೈಟ್ರೇಟ್ (0.5%) ಮತ್ತು ಬೋರಾನ್ (0.2%) ಸಿಂಪಡಿಸಿ ಬುಡ ಕೊಳೆ ತಡೆಯಿರಿ.",
+      "hi": "फूल आने पर कैल्शियम नाइट्रेट (0.5%) व बोरॉन (0.2%) का छिड़काव करें।",
+      "mr": "ब्लॉसम एंड रॉट टाळण्यासाठी कॅल्शियम व बोरॉन फवारावे."
+    },
+    "cautionNotes": {
+      "en": "Excessive nitrogen causes excessive foliage and delays fruit setting.",
+      "kn": "ಹೆಚ್ಚು ಸಾರಜನಕ ಹಾಕಿದರೆ ಎಲೆಗಳೇ ಬೆಳೆದು ಹೂ ಕಾಯಿ ಕಡಿಮೆಯಾಗುತ್ತದೆ.",
+      "hi": "ज्यादा नाइट्रोजन से केवल पत्तियाँ बढ़ेंगी और फल देर से आएँगे।",
+      "mr": "जास्त नत्रामुळे फक्त पाने वाढतात आणि फळधारणा उशिरा होते."
+    },
+    "source": "IIHR Bengaluru Tomato Package of Practices (2022)"
+  },
+  {
+    "cropId": "potato",
+    "recommendedNpkKgPerHa": [
+      125.0,
+      100.0,
+      125.0
+    ],
+    "fymTonPerHa": 20.0,
+    "vermicompostTonPerHa": 4.0,
+    "splits": [
+      {
+        "stage": "basal",
+        "name": {
+          "en": "Basal (At planting)",
+          "kn": "ನಾಟಿ ಸಮಯದಲ್ಲಿ",
+          "hi": "बुवाई पर",
+          "mr": "लावणीवेळी"
+        },
+        "nPercent": 50,
+        "pPercent": 100,
+        "kPercent": 50,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply half N and K, and full P in furrows 5 cm below tuber pieces.",
+          "kn": "ಅರ್ಧ ಸಾರಜನಕ, ಪೊಟ್ಯಾಶ್ ಮತ್ತು ಪೂರ್ಣ ರಂಜಕವನ್ನು ಗೆಡ್ಡೆಯ ಕೆಳಗೆ 5 ಸೆಂ.ಮೀ ಅಂತರದಲ್ಲಿ ಹಾಕಿ.",
+          "hi": "आधी नत्र, पोटाश और पूरी फास्फोरस आलू के नीचे डालें।",
+          "mr": "अर्धे नत्र, पालाश व पूर्ण स्फुरद बटाट्याच्या खाली टाकावे."
+        }
+      },
+      {
+        "stage": "earthing_up",
+        "name": {
+          "en": "Earthing Up (30-35 DAP)",
+          "kn": "ಮಣ್ಣು ಏರಿಸುವ ವೇಳೆ (30-35 ದಿನ)",
+          "hi": "मिट्टी चढ़ाते समय (30-35 दिन)",
+          "mr": "माती लावताना (30-35 दिवस)"
+        },
+        "nPercent": 50,
+        "pPercent": 0,
+        "kPercent": 50,
+        "timingDays": "30-35",
+        "instructions": {
+          "en": "Apply remaining 50% N and 50% K followed immediately by ridging and earthing up.",
+          "kn": "ಉಳಿದ 50% ಸಾರಜನಕ ಮತ್ತು ಪೊಟ್ಯಾಶ್ ಹಾಕಿ ತಕ್ಷಣ ಮಣ್ಣು ಏರಿಸಿ.",
+          "hi": "शेष 50% नत्र व पोटाश डालकर तुरंत मिट्टी चढ़ाएँ।",
+          "mr": "उरलेले 50% नत्र व पालाश टाकून लगेच माती चढवावी."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Sulphate of Potash (SOP) is preferred over Muriate of Potash (MOP) for higher starch and chip quality.",
+      "kn": "ಆಲೂಗಡ್ಡೆಯಲ್ಲಿ ಉತ್ತಮ ಪಿಷ್ಟಕ್ಕೆ ಎಂಒಪಿ ಬದಲಿಗೆ ಎಸ್‌ಒಪಿ (ಪೊಟ್ಯಾಶಿಯಂ ಸಲ್ಫೇಟ್) ಬಳಸುವುದು ಶ್ರೇಷ್ಠ.",
+      "hi": "आलू की बेहतर गुणवत्ता के लिए एमओपी की जगह एसओपी का उपयोग करें।",
+      "mr": "चांगल्या गुणवत्तेसाठी एमओपी ऐवजी एसओपी खत वापरावे."
+    },
+    "cautionNotes": {
+      "en": "Do not expose tubers to light after fertilizing and ridging to avoid greening (solanine).",
+      "kn": "ಗೆಡ್ಡೆಗಳು ಬಿಸಿಲಿಗೆ ತೆರೆದುಕೊಳ್ಳದಂತೆ ಚೆನ್ನಾಗಿ ಮಣ್ಣು ಮುಚ್ಚಿ.",
+      "hi": "आलू को धूप से बचाने के लिए अच्छी तरह मिट्टी से ढकें।",
+      "mr": "बटाटे उघडे पडू नयेत म्हणून माती व्यवस्थित लावावी."
+    },
+    "source": "CPRI Shimla / UAS Bengaluru Potato Production Technology"
+  },
+  {
+    "cropId": "pepper_bell",
+    "recommendedNpkKgPerHa": [
+      150.0,
+      75.0,
+      75.0
+    ],
+    "fymTonPerHa": 20.0,
+    "vermicompostTonPerHa": 3.0,
+    "splits": [
+      {
+        "stage": "basal",
+        "name": {
+          "en": "Basal",
+          "kn": "ನಾಟಿ ಸಮಯದಲ್ಲಿ",
+          "hi": "रोपाई पर",
+          "mr": "लावणीवेळी"
+        },
+        "nPercent": 34,
+        "pPercent": 100,
+        "kPercent": 50,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Incorporate full P, 1/3 N and 1/2 K into ridges before planting.",
+          "kn": "ನಾಟಿಗೆ ಮುನ್ನ ಪೂರ್ಣ ರಂಜಕ, 1/3 ಸಾರಜನಕ ಮತ್ತು ಅರ್ಧ ಪೊಟ್ಯಾಶ್ ಹಾಕಿ.",
+          "hi": "रोपाई से पहले पूरी फास्फोरस, 1/3 नत्र और आधी पोटाश डालें।",
+          "mr": "लावणीपूर्वी संपूर्ण स्फुरद, 1/3 नत्र व अर्धे पालाश द्यावे."
+        }
+      },
+      {
+        "stage": "flowering",
+        "name": {
+          "en": "Flowering (30 DAT)",
+          "kn": "ಹೂ ಬಿಡುವ ಹಂತ (30 ದಿನ)",
+          "hi": "फूल आने पर (30 दिन)",
+          "mr": "फुलोऱ्यात (30 दिवस)"
+        },
+        "nPercent": 33,
+        "pPercent": 0,
+        "kPercent": 25,
+        "timingDays": "30",
+        "instructions": {
+          "en": "Side dress 33% N and 25% K around root zone.",
+          "kn": "ಬೇರಿನ ಪಕ್ಕದಲ್ಲಿ 33% ಸಾರಜನಕ ಮತ್ತು 25% ಪೊಟ್ಯಾಶ್ ಹಾಕಿ.",
+          "hi": "33% नत्र व 25% पोटाश जड़ों के पास डालें।",
+          "mr": "33% नत्र व 25% पालाश मुळांजवळ द्यावे."
+        }
+      },
+      {
+        "stage": "fruiting",
+        "name": {
+          "en": "Fruiting (60 DAT)",
+          "kn": "ಕಾಯಿ ಬಿಡುವ ಹಂತ (60 ದಿನ)",
+          "hi": "फल लगने पर (60 दिन)",
+          "mr": "फळे धरताना (60 दिवस)"
+        },
+        "nPercent": 33,
+        "pPercent": 0,
+        "kPercent": 25,
+        "timingDays": "60",
+        "instructions": {
+          "en": "Apply remaining N and K to sustain continuous flushes of capsicum.",
+          "kn": "ಉಳಿದ ಸಾರಜನಕ ಮತ್ತು ಪೊಟ್ಯಾಶ್ ನೀಡಿ ನಿರಂತರ ಇಳುವರಿ ಪಡೆಯಿರಿ.",
+          "hi": "लगातार उत्पादन हेतु अंतिम खुराक डालें।",
+          "mr": "सतत उत्पादनासाठी उर्वरित खत द्यावे."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Foliar spray Borax 0.2% and Zinc Sulphate 0.5% at flower initiation.",
+      "kn": "ಹೂ ಬಿಡುವಾಗ ಬೋರಾಕ್ಸ್ 0.2% ಮತ್ತು ಜಿಂಕ್ ಸಲ್ಫೇಟ್ 0.5% ಸಿಂಪಡಿಸಿ.",
+      "hi": "फूल आने पर बोरैक्स 0.2% और जिंक सल्फेट 0.5% का छिड़काव करें।",
+      "mr": "फुलधारणेवेळी बोरॅक्स 0.2% व झिंक सल्फेट 0.5% फवारावे."
+    },
+    "cautionNotes": {
+      "en": "Avoid waterlogging after fertilizer application to prevent collar rot.",
+      "kn": "ಗೊಬ್ಬರ ಹಾಕಿದ ನಂತರ ನೀರು ನಿಲ್ಲದಂತೆ ಎಚ್ಚರವಹಿಸಿ.",
+      "hi": "खाद डालने के बाद जलभराव से बचें।",
+      "mr": "खत दिल्यावर पाणी साचू देऊ नका."
+    },
+    "source": "IIHR Bengaluru Capsicum Guidelines"
+  },
+  {
+    "cropId": "grape",
+    "recommendedNpkKgPerHa": [
+      300.0,
+      200.0,
+      400.0
+    ],
+    "fymTonPerHa": 40.0,
+    "vermicompostTonPerHa": 8.0,
+    "splits": [
+      {
+        "stage": "foundation_pruning",
+        "name": {
+          "en": "Back / Foundation Pruning (April-May)",
+          "kn": "ಏಪ್ರಿಲ್-ಮೇ ಕಟಾವು ನಂತರ",
+          "hi": "अप्रैल-मई छंटाई बाद",
+          "mr": "खरड छाटणीनंतर"
+        },
+        "nPercent": 60,
+        "pPercent": 50,
+        "kPercent": 30,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply 60% N, 50% P and 30% K to support vigorous vegetative shoot growth.",
+          "kn": "ಚಿಗುರು ಬೆಳೆಯಲು 60% ಸಾರಜನಕ, 50% ರಂಜಕ ಮತ್ತು 30% ಪೊಟ್ಯಾಶ್ ನೀಡಿ.",
+          "hi": "नई बढ़वार के लिए 60% नत्र, 50% फास्फोरस व 30% पोटाश दें।",
+          "mr": "शाकीय वाढीसाठी 60% नत्र, 50% स्फुरद व 30% पालाश द्यावे."
+        }
+      },
+      {
+        "stage": "forward_pruning",
+        "name": {
+          "en": "Forward / Fruit Pruning (Oct-Nov)",
+          "kn": "ಅಕ್ಟೋಬರ್-ನವೆಂಬರ್ ಕಟಾವು ನಂತರ",
+          "hi": "अक्टूबर-नवंबर फल छंटाई बाद",
+          "mr": "गोडी छाटणीनंतर"
+        },
+        "nPercent": 40,
+        "pPercent": 50,
+        "kPercent": 70,
+        "timingDays": "180",
+        "instructions": {
+          "en": "Apply remaining N and P, and heavy potash (70%) in splits for berry size and TSS/sweetness.",
+          "kn": "ಹಣ್ಣಿನ ಸಿಹಿ ಮತ್ತು ಗಾತ್ರಕ್ಕೆ 70% ಪೊಟ್ಯಾಶ್ ಮತ್ತು ಉಳಿದ ಗೊಬ್ಬರ ನೀಡಿ.",
+          "hi": "मिठास और फल के आकार के लिए भारी पोटाश (70%) व शेष खाद दें।",
+          "mr": "गोडी व मण्यांच्या आकारासाठी 70% पालाश व उरलेले खत द्यावे."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Apply Magnesium Sulphate @ 25 kg/ha and Boron sprays to avoid hen-and-chicken berry disorder.",
+      "kn": "ಮೆಗ್ನೀಸಿಯಮ್ ಸಲ್ಫೇಟ್ 25 ಕೆಜಿ ಮತ್ತು ಬೋರಾನ್ ಸಿಂಪಡಿಸಿ ಅಸಮಾನ ಕಾಯಿ ತಡೆಯಿರಿ.",
+      "hi": "मैग्नीशियम सल्फेट 25 किग्रा व बोरॉन का छिड़काव फल विकृति रोकता है।",
+      "mr": "मणी विकृती टाळण्यासाठी मॅग्नेशियम सल्फेट व बोरॉन द्या."
+    },
+    "cautionNotes": {
+      "en": "Never use high chlorine water or high muriate potash in saline soils.",
+      "kn": "ಉಪ್ಪು ನೀರಿನಲ್ಲಿ ಎಂಒಪಿ (ಕ್ಲೋರೈಡ್) ಗೊಬ್ಬರ ಬಳಸಬೇಡಿ; ಎಸ್‌ಒಪಿ ಬಳಸಿ.",
+      "hi": "लवणीय मिट्टी में म्यूरेट ऑफ पोटाश का प्रयोग न करें।",
+      "mr": "खारवट जमिनीत एमओपी वापरू नका, एसओपी वापरा."
+    },
+    "source": "NRC Grapes Pune / UAS Dharwad Grape Package"
+  },
+  {
+    "cropId": "tur",
+    "recommendedNpkKgPerHa": [
+      25.0,
+      50.0,
+      25.0
+    ],
+    "fymTonPerHa": 5.0,
+    "vermicompostTonPerHa": 1.5,
+    "splits": [
+      {
+        "stage": "basal",
+        "name": {
+          "en": "Basal (At sowing)",
+          "kn": "ಬಿತ್ತನೆ ಸಮಯದಲ್ಲಿ",
+          "hi": "बुवाई पर",
+          "mr": "पेरणीवेळी"
+        },
+        "nPercent": 100,
+        "pPercent": 100,
+        "kPercent": 100,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply full N, P, and K at sowing in furrows. Treat seed with Rhizobium.",
+          "kn": "ಬಿತ್ತನೆ ಸಮಯದಲ್ಲಿ ಪೂರ್ಣ ರಸಗೊಬ್ಬರ ನೀಡಿ. ಬೀಜಕ್ಕೆ ರೈಜೋಬಿಯಂ ಉಪಚರಿಸಿ.",
+          "hi": "बुवाई पर पूरी खाद डालें। बीज को राइजोबियम से उपचारित करें।",
+          "mr": "पेरणीवेळी संपूर्ण खत द्यावे. बियाण्याला रायझोबियम लावावे."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Apply 20 kg/ha Sulphur (Bentonite sulphur) to boost pulse protein and root nodulation.",
+      "kn": "ಹೆಕ್ಟೇರಿಗೆ 20 ಕೆಜಿ ಗಂಧಕ (ಸಲ್ಫರ್) ಹಾಕಿದರೆ ಕಾಳು ಗುಣಮಟ್ಟ ಹೆಚ್ಚುತ್ತದೆ.",
+      "hi": "20 किग्रा गंधक प्रति हेक्टेयर डालने से दाल में प्रोटीन बढ़ता है।",
+      "mr": "20 किलो गंधक प्रति हेक्टर वापरा."
+    },
+    "cautionNotes": {
+      "en": "Avoid excess nitrogen as red gram fixes atmospheric nitrogen naturally; excess N promotes vegetative growth over pod set.",
+      "kn": "ತೊಗರಿಗೆ ಹೆಚ್ಚು ಸಾರಜನಕ ಹಾಕಬೇಡಿ, ಗಿಡವೇ ಬೆಳೆದು ಕಾಯಿ ಕಟ್ಟುವುದಿಲ್ಲ.",
+      "hi": "ज्यादा नाइट्रोजन न डालें, इससे फलियाँ कम बनेंगी।",
+      "mr": "जास्त नत्र टाळल्यास शेंगा चांगल्या भरतात."
+    },
+    "source": "UAS Raichur Redgram Production Guidelines"
+  },
+  {
+    "cropId": "groundnut",
+    "recommendedNpkKgPerHa": [
+      25.0,
+      75.0,
+      40.0
+    ],
+    "fymTonPerHa": 7.5,
+    "vermicompostTonPerHa": 2.0,
+    "splits": [
+      {
+        "stage": "basal",
+        "name": {
+          "en": "Basal (At sowing)",
+          "kn": "ಬಿತ್ತನೆ ಸಮಯದಲ್ಲಿ",
+          "hi": "बुवाई पर",
+          "mr": "पेरणीवेळी"
+        },
+        "nPercent": 100,
+        "pPercent": 100,
+        "kPercent": 100,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply full N, P, and K into furrows. Ensure Gypsum is planned for pegging.",
+          "kn": "ಪೂರ್ಣ ರಸಗೊಬ್ಬರವನ್ನು ಬಿತ್ತನೆ ಸಾಲಿನಲ್ಲಿ ಹಾಕಿ.",
+          "hi": "बुवाई पर पूरी खाद कूंड़ों में डालें।",
+          "mr": "पेरणीवेळी संपूर्ण खत ओळीत द्यावे."
+        }
+      },
+      {
+        "stage": "pegging",
+        "name": {
+          "en": "Pegging Stage (35-40 DAS)",
+          "kn": "ಕಾಯಿ ಇಳಿಯುವ ಹಂತ (35-40 ದಿನ)",
+          "hi": "सूइयाँ बनते समय (35-40 दिन)",
+          "mr": "आऱ्या सुटताना (35-40 दिवस)"
+        },
+        "nPercent": 0,
+        "pPercent": 0,
+        "kPercent": 0,
+        "timingDays": "35-40",
+        "instructions": {
+          "en": "Broadcast Gypsum @ 500 kg/ha close to base and incorporate lightly into soil with hoeing.",
+          "kn": "ಹೆಕ್ಟೇರಿಗೆ 500 ಕೆಜಿ ಜಿಪ್ಸಮ್ ಅನ್ನು ಗಿಡದ ಬುಡಕ್ಕೆ ಹಾಕಿ ಮಣ್ಣು ಮುಚ್ಚಿ.",
+          "hi": "500 किग्रा/हेक्टर जिप्सम पौधों की जड़ों के पास डालकर हल्की गुड़ाई करें।",
+          "mr": "500 किलो जिप्सम झाडांच्या बुंध्याशी टाकून हलकी खांदणी करा."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Gypsum supplies essential Calcium and Sulphur to prevent 'pop' (empty hollow pods).",
+      "kn": "ಜಿಪ್ಸಮ್ ಹಾಕುವುದರಿಂದ ಟೊಳ್ಳು ಕಾಯಿ (ಪಾಪ್) ರೋಗ ತಡೆಗಟ್ಟಬಹುದು.",
+      "hi": "जिप्सम खाली फलियों (पॉप) की समस्या को दूर करता है।",
+      "mr": "जिप्सममुळे पोचट शेंगांची समस्या टळते."
+    },
+    "cautionNotes": {
+      "en": "Do not disturb pegs during or after 45 DAS; all earthing and gypsum must finish by day 40.",
+      "kn": "40 ದಿನಗಳ ನಂತರ ಕಾಯಿ ಇಳಿಯುವಾಗ ಮಣ್ಣನ್ನು ಅಗೆಯಬೇಡಿ.",
+      "hi": "40 दिन के बाद मिट्टी में छेड़छाड़ न करें।",
+      "mr": "40 दिवसांनंतर मुळांशी मशागत करू नका."
+    },
+    "source": "UAS Dharwad Oilseeds Package of Practices"
+  },
+  {
+    "cropId": "sugarcane",
+    "recommendedNpkKgPerHa": [
+      250.0,
+      100.0,
+      125.0
+    ],
+    "fymTonPerHa": 25.0,
+    "vermicompostTonPerHa": 5.0,
+    "splits": [
+      {
+        "stage": "basal",
+        "name": {
+          "en": "At Planting",
+          "kn": "ನಾಟಿ ಸಮಯದಲ್ಲಿ",
+          "hi": "रोपाई पर",
+          "mr": "लागवडीवेळी"
+        },
+        "nPercent": 10,
+        "pPercent": 100,
+        "kPercent": 0,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply 10% N and entire 100% P in the furrow bottom.",
+          "kn": "10% ಸಾರಜನಕ ಮತ್ತು ಪೂರ್ಣ ರಂಜಕವನ್ನು ಸಾಲಿನ ತಳದಲ್ಲಿ ಹಾಕಿ.",
+          "hi": "10% नत्र और पूरी फास्फोरस कूंड़ में डालें।",
+          "mr": "10% नत्र व पूर्ण स्फुरद सरीत द्यावे."
+        }
+      },
+      {
+        "stage": "tillering_early",
+        "name": {
+          "en": "Tillering (45 DAP)",
+          "kn": "ಕಬ್ಬು ಒಡೆಯುವ ಹಂತ (45 ದಿನ)",
+          "hi": "कल्ले फूटने पर (45 दिन)",
+          "mr": "फुटवे फुटताना (45 दिवस)"
+        },
+        "nPercent": 20,
+        "pPercent": 0,
+        "kPercent": 0,
+        "timingDays": "45",
+        "instructions": {
+          "en": "Apply 20% N with first light earthing up.",
+          "kn": "20% ಸಾರಜನಕ ಹಾಕಿ ಲಘು ಮಣ್ಣು ಏರಿಸಿ.",
+          "hi": "20% नत्र डालकर हल्की मिट्टी चढ़ाएँ।",
+          "mr": "20% नत्र देऊन हलकी माती लावा."
+        }
+      },
+      {
+        "stage": "tillering_active",
+        "name": {
+          "en": "Active Tillering (90 DAP)",
+          "kn": "ಚುರುಕಾದ ಬೆಳವಣಿಗೆ (90 ದಿನ)",
+          "hi": "सक्रिय कल्ले (90 दिन)",
+          "mr": "मोठे फुटवे (90 दिवस)"
+        },
+        "nPercent": 20,
+        "pPercent": 0,
+        "kPercent": 0,
+        "timingDays": "90",
+        "instructions": {
+          "en": "Apply 20% N followed by irrigation.",
+          "kn": "20% ಸಾರಜನಕ ನೀಡಿ ನೀರು ಹಾಯಿಸಿ.",
+          "hi": "20% नत्र देकर सिंचाई करें।",
+          "mr": "20% नत्र देऊन पाणी द्या."
+        }
+      },
+      {
+        "stage": "grand_earthing",
+        "name": {
+          "en": "Final Earthing Up (120-135 DAP)",
+          "kn": "ದೊಡ್ಡ ಮಣ್ಣು ಏರಿಸುವ ವೇಳೆ (120-135 ದಿನ)",
+          "hi": "बड़ी मिट्टी चढ़ाने पर (120-135 दिन)",
+          "mr": "मोठी बांधणी (120-135 दिवस)"
+        },
+        "nPercent": 50,
+        "pPercent": 0,
+        "kPercent": 100,
+        "timingDays": "120-135",
+        "instructions": {
+          "en": "Apply remaining 50% N and 100% K followed by heavy earthing up to prevent lodging.",
+          "kn": "ಉಳಿದ 50% ಸಾರಜನಕ ಮತ್ತು ಪೂರ್ಣ ಪೊಟ್ಯಾಶ್ ಹಾಕಿ ದೊಡ್ಡ ಮಣ್ಣು ಏರಿಸಿ.",
+          "hi": "शेष 50% नत्र और 100% पोटाश डालकर भारी मिट्टी चढ़ाएँ।",
+          "mr": "उरलेले 50% नत्र व 100% पालाश टाकून मोठी बांधणी करावी."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Ferrous Sulphate (FeSO4) @ 25 kg/ha in calcareous black soils prevents lime-induced chlorosis.",
+      "kn": "ಕಬ್ಬಿಣದ ಕೊರತೆಯ ಹಳದಿ ರೋಗಕ್ಕೆ 25 ಕೆಜಿ ಫೆರಸ್ ಸಲ್ಫೇಟ್ ಹಾಕಿ.",
+      "hi": "लोहे की कमी दूर करने के लिए 25 किग्रा फेरस सल्फेट डालें।",
+      "mr": "लोहाच्या कमतरतेसाठी 25 किलो फेरस सल्फेट वापरा."
+    },
+    "cautionNotes": {
+      "en": "Stop all nitrogen application after 150 days to maximize juice sucrose recovery and maturity.",
+      "kn": "150 ದಿನಗಳ ನಂತರ ಸಾರಜನಕ ಹಾಕಬೇಡಿ; ಕಬ್ಬಿನಲ್ಲಿ ಸಕ್ಕರೆ ಅಂಶ ಕಡಿಮೆಯಾಗುತ್ತದೆ.",
+      "hi": "150 दिन बाद यूरिया न डालें, इससे चीनी की मात्रा घटती है।",
+      "mr": "150 दिवसांनंतर नत्र देऊ नका, साखरेचे प्रमाण घटते."
+    },
+    "source": "ICAR-SBI Coimbatore / UAS Dharwad Sugarcane Manual"
+  },
+  {
+    "cropId": "cotton",
+    "recommendedNpkKgPerHa": [
+      150.0,
+      75.0,
+      75.0
+    ],
+    "fymTonPerHa": 10.0,
+    "vermicompostTonPerHa": 2.5,
+    "splits": [
+      {
+        "stage": "basal",
+        "name": {
+          "en": "Basal",
+          "kn": "ಬಿತ್ತನೆ ಸಮಯದಲ್ಲಿ",
+          "hi": "बुवाई पर",
+          "mr": "पेरणीवेळी"
+        },
+        "nPercent": 25,
+        "pPercent": 100,
+        "kPercent": 50,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply 25% N, 100% P and 50% K in planting pocket.",
+          "kn": "25% ಸಾರಜನಕ, ಪೂರ್ಣ ರಂಜಕ ಮತ್ತು ಅರ್ಧ ಪೊಟ್ಯಾಶ್ ಹಾಕಿ.",
+          "hi": "25% नत्र, पूरी फास्फोरस व आधी पोटाश डालें।",
+          "mr": "25% नत्र, पूर्ण स्फुरद व अर्धे पालाश द्यावे."
+        }
+      },
+      {
+        "stage": "squaring",
+        "name": {
+          "en": "Square Formation (45 DAS)",
+          "kn": "ಹೂ ಮೊಗ್ಗು ಹಂತ (45 ದಿನ)",
+          "hi": "कलियाँ बनते समय (45 दिन)",
+          "mr": "पात्या धरताना (45 दिवस)"
+        },
+        "nPercent": 50,
+        "pPercent": 0,
+        "kPercent": 0,
+        "timingDays": "45",
+        "instructions": {
+          "en": "Apply 50% N between rows after weeding.",
+          "kn": "ಸಾಲುಗಳ ಮಧ್ಯೆ 50% ಸಾರಜನಕ ಹಾಕಿ ಮಣ್ಣು ಏರಿಸಿ.",
+          "hi": "निराई बाद 50% नत्र कतारों के बीच डालें।",
+          "mr": "खुरपणीनंतर ओळींच्या मध्ये 50% नत्र द्या."
+        }
+      },
+      {
+        "stage": "boll_development",
+        "name": {
+          "en": "Boll Development (75 DAS)",
+          "kn": "ಹತ್ತಿ ಕಾಯಿ ಕಟ್ಟುವ ಹಂತ (75 ದಿನ)",
+          "hi": "टिंडे बनते समय (75 दिन)",
+          "mr": "बोंड भरताना (75 दिवस)"
+        },
+        "nPercent": 25,
+        "pPercent": 0,
+        "kPercent": 50,
+        "timingDays": "75",
+        "instructions": {
+          "en": "Apply remaining 25% N and 50% K to support boll retention and fiber strength.",
+          "kn": "ಉಳಿದ 25% ಸಾರಜನಕ ಮತ್ತು 50% ಪೊಟ್ಯಾಶ್ ನೀಡಿ ಕಾಯಿ ಉದುರುವುದನ್ನು ತಡೆಯಿರಿ.",
+          "hi": "टिंडे झड़ने से रोकने हेतु शेष 25% नत्र व 50% पोटाश दें।",
+          "mr": "बोंडे गळू नयेत म्हणून उर्वरित खत द्यावे."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Foliar spray 1% Magnesium Sulphate + 0.15% Boron at peak flowering to avoid leaf reddening.",
+      "kn": "ಎಲೆ ಕೆಂಪಾಗುವುದನ್ನು ತಡೆಯಲು 1% ಮೆಗ್ನೀಸಿಯಮ್ ಸಲ್ಫೇಟ್ ಸಿಂಪಡಿಸಿ.",
+      "hi": "पत्तियाँ लाल होने से रोकने के लिए 1% मैग्नीशियम सल्फेट फवारें।",
+      "mr": "पाने लाल पडू नयेत म्हणून 1% मॅग्नेशियम सल्फेट फवारावे."
+    },
+    "cautionNotes": {
+      "en": "Excessive N combined with cloudy weather encourages vegetative rank growth and sucking pest surges.",
+      "kn": "ಮೋಡ ಕವಿದ ವಾತಾವರಣದಲ್ಲಿ ಹೆಚ್ಚು ಸಾರಜನಕ ಹಾಕಬೇಡಿ; ಕೀಟಗಳ ಕಾಟ ಹೆಚ್ಚಾಗುತ್ತದೆ.",
+      "hi": "बादल वाले मौसम में ज्यादा यूरिया न डालें।",
+      "mr": "ढगाळ हवेत जास्त युरिया दिल्यास किडींचा प्रादुर्भाव वाढतो."
+    },
+    "source": "CICR Nagpur / UAS Dharwad Bt Cotton Package"
+  },
+  {
+    "cropId": "onion",
+    "recommendedNpkKgPerHa": [
+      125.0,
+      50.0,
+      100.0
+    ],
+    "fymTonPerHa": 20.0,
+    "vermicompostTonPerHa": 4.0,
+    "splits": [
+      {
+        "stage": "basal",
+        "name": {
+          "en": "Basal",
+          "kn": "ನಾಟಿ ಸಮಯದಲ್ಲಿ",
+          "hi": "रोपाई पर",
+          "mr": "लावणीवेळी"
+        },
+        "nPercent": 50,
+        "pPercent": 100,
+        "kPercent": 50,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply half N, all P and half K during final bed preparation.",
+          "kn": "ಬೆಡ್ ತಯಾರಿಸುವಾಗ ಅರ್ಧ ಸಾರಜನಕ, ಪೂರ್ಣ ರಂಜಕ ಮತ್ತು ಅರ್ಧ ಪೊಟ್ಯಾಶ್ ಹಾಕಿ.",
+          "hi": "खेत तैयारी पर आधी नत्र, पूरी फास्फोरस व आधी पोटाश डालें।",
+          "mr": "गादी वाफे तयार करताना अर्धे नत्र, पूर्ण स्फुरद व अर्धे पालाश द्या."
+        }
+      },
+      {
+        "stage": "bulb_initiation",
+        "name": {
+          "en": "Bulb Initiation (30-40 DAT)",
+          "kn": "ಗಡ್ಡೆ ಕಟ್ಟುವ ಹಂತ (30-40 ದಿನ)",
+          "hi": "गांठ बनते समय (30-40 दिन)",
+          "mr": "कांदा पोसताना (30-40 दिवस)"
+        },
+        "nPercent": 50,
+        "pPercent": 0,
+        "kPercent": 50,
+        "timingDays": "30-40",
+        "instructions": {
+          "en": "Top dress balance 50% N and 50% K with irrigation.",
+          "kn": "ಉಳಿದ 50% ಸಾರಜನಕ ಮತ್ತು 50% ಪೊಟ್ಯಾಶ್ ನೀಡಿ ನೀರು ಹಾಯಿಸಿ.",
+          "hi": "बची 50% नत्र व 50% पोटाश देकर पानी दें।",
+          "mr": "उरलेले 50% नत्र व 50% पालाश देऊन पाणी द्यावे."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Apply Sulphur @ 30 kg/ha basal to increase pungent pungency, skin luster and shelf life.",
+      "kn": "ಈರುಳ್ಳಿಯ ಖಾರ, ಬಣ್ಣ ಮತ್ತು ಬಾಳಿಕೆ ಹೆಚ್ಚಿಸಲು 30 ಕೆಜಿ ಸಲ್ಫರ್ ಹಾಕಿ.",
+      "hi": "चमक और भंडारण क्षमता बढ़ाने हेतु 30 किग्रा गंधक प्रति हेक्टेयर दें।",
+      "mr": "कांद्याचा रंग व साठवणूक क्षमता वाढवण्यासाठी 30 किलो गंधक द्या."
+    },
+    "cautionNotes": {
+      "en": "Do not apply nitrogen within 45 days of harvest; late N leads to thick necks and rotting in storage.",
+      "kn": "ಕಟಾವಿಗೆ 45 ದಿನಗಳ ಮುನ್ನ ಸಾರಜನಕ ನಿಲ್ಲಿಸಿ; ಇಲ್ಲದಿದ್ದರೆ ಈರುಳ್ಳಿ ಕೊಳೆಯುತ್ತದೆ.",
+      "hi": "खुदाई से 45 दिन पहले यूरिया बंद कर दें।",
+      "mr": "काढणीच्या 45 दिवस आधी युरिया बंद करा, नाहीतर कांदा सडतो."
+    },
+    "source": "DOGR Pune / UAS Bengaluru Onion Package"
+  },
+  {
+    "cropId": "banana",
+    "recommendedNpkKgPerHa": [
+      200.0,
+      50.0,
+      300.0
+    ],
+    "fymTonPerHa": 30.0,
+    "vermicompostTonPerHa": 6.0,
+    "splits": [
+      {
+        "stage": "month_2",
+        "name": {
+          "en": "2nd Month After Planting",
+          "kn": "ನಾಟಿಯಾದ 2ನೇ ತಿಂಗಳು",
+          "hi": "रोपाई के दूसरे माह",
+          "mr": "लागवडीनंतर दुसरा महिना"
+        },
+        "nPercent": 25,
+        "pPercent": 50,
+        "kPercent": 20,
+        "timingDays": "60",
+        "instructions": {
+          "en": "Apply in a ring 30 cm away from pseudostem.",
+          "kn": "ಬುಡದಿಂದ 30 ಸೆಂ.ಮೀ ದೂರದಲ್ಲಿ ವೃತ್ತಾಕಾರವಾಗಿ ಹಾಕಿ.",
+          "hi": "तने से 30 सेमी दूर घेरे में खाद दें।",
+          "mr": "खोडापासून 30 सेमी अंतरावर बांगडी पद्धतीने द्या."
+        }
+      },
+      {
+        "stage": "month_4",
+        "name": {
+          "en": "4th Month After Planting",
+          "kn": "ನಾಟಿಯಾದ 4ನೇ ತಿಂಗಳು",
+          "hi": "रोपाई के चौथे माह",
+          "mr": "लागवडीनंतर चौथा महिना"
+        },
+        "nPercent": 25,
+        "pPercent": 50,
+        "kPercent": 20,
+        "timingDays": "120",
+        "instructions": {
+          "en": "Apply in a ring 45 cm away and cover with soil.",
+          "kn": "ಬುಡದಿಂದ 45 ಸೆಂ.ಮೀ ದೂರದಲ್ಲಿ ಹಾಕಿ ಮಣ್ಣು ಮುಚ್ಚಿ.",
+          "hi": "तने से 45 सेमी दूर डालकर मिट्टी से ढकें।",
+          "mr": "खोडापासून 45 सेमी अंतरावर देऊन मातीने झाकावे."
+        }
+      },
+      {
+        "stage": "month_6",
+        "name": {
+          "en": "6th Month (Shooting/Bud emergence)",
+          "kn": "ನಾಟಿಯಾದ 6ನೇ ತಿಂಗಳು (ಹೂವು ಮೂಡುವಾಗ)",
+          "hi": "छठे माह (फूल आने पर)",
+          "mr": "लागवडीनंतर सहावा महिना"
+        },
+        "nPercent": 25,
+        "pPercent": 0,
+        "kPercent": 30,
+        "timingDays": "180",
+        "instructions": {
+          "en": "Apply around plant and irrigate immediately.",
+          "kn": "ಗಿಡದ ಸುತ್ತ ಹಾಕಿ ತಕ್ಷಣ ನೀರು ಕೊಡಿ.",
+          "hi": "पौधे के चारों ओर डालकर तुरंत पानी दें।",
+          "mr": "झाडाभोवती देऊन लगेच पाणी द्या."
+        }
+      },
+      {
+        "stage": "month_8",
+        "name": {
+          "en": "8th Month (Bunch development)",
+          "kn": "ನಾಟಿಯಾದ 8ನೇ ತಿಂಗಳು (ಗೊನೆ ಬೆಳವಣಿಗೆ)",
+          "hi": "आठवें माह (घार विकास)",
+          "mr": "लागवडीनंतर आठवा महिना"
+        },
+        "nPercent": 25,
+        "pPercent": 0,
+        "kPercent": 30,
+        "timingDays": "240",
+        "instructions": {
+          "en": "Apply final dose to ensure heavy finger filling.",
+          "kn": "ಬಾಳೆಕಾಯಿ ದಪ್ಪವಾಗಲು ಕೊನೆಯ ಕಂತಿನ ಗೊಬ್ಬರ ನೀಡಿ.",
+          "hi": "केले मोटे होने के लिए अंतिम खुराक दें।",
+          "mr": "घड चांगला भरण्यासाठी शेवटचा हप्ता द्या."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Spray Banana Special micronutrient formulation @ 5 g/litre at 5th, 6th and 7th month.",
+      "kn": "5, 6, 7 ನೇ ತಿಂಗಳಲ್ಲಿ 'ಬನಾನಾ ಸ್ಪೆಷಲ್' ಸೂಕ್ಷ್ಮ ಪೋಷಕಾಂಶ 5 ಗ್ರಾಂ/ಲೀಟರ್ ಸಿಂಪಡಿಸಿ.",
+      "hi": "5वें, 6वें और 7वें महीने 5 ग्राम/लीटर बनाना स्पेशल फवारें।",
+      "mr": "५व्या, ६व्या व ७व्या महिन्यात बनाना स्पेशल ५ ग्रॅम/लिटर फवारावे."
+    },
+    "cautionNotes": {
+      "en": "Potash is paramount for banana; never reduce potash doses or finger quality will collapse.",
+      "kn": "ಬಾಳೆಗೆ ಪೊಟ್ಯಾಶ್ ಅತ್ಯಂತ ಮುಖ್ಯ; ಪೊಟ್ಯಾಶ್ ಪ್ರಮಾಣವನ್ನು ಎಂದಿಗೂ ಕಡಿಮೆ ಮಾಡಬೇಡಿ.",
+      "hi": "केले में पोटाश की कमी से फल की गुणवत्ता खराब हो जाती है।",
+      "mr": "केळीला पालाश अत्यंत आवश्यक आहे, पालाश कमी करू नका."
+    },
+    "source": "NRC Banana Tiruchirappalli / UAS Bengaluru"
+  },
+  {
+    "cropId": "mango",
+    "recommendedNpkKgPerHa": [
+      100.0,
+      50.0,
+      100.0
+    ],
+    "fymTonPerHa": 20.0,
+    "vermicompostTonPerHa": 5.0,
+    "splits": [
+      {
+        "stage": "post_harvest",
+        "name": {
+          "en": "Post Harvest (July-August)",
+          "kn": "ಫಸಲು ಮುಗಿದ ನಂತರ (ಜುಲೈ-ಆಗಸ್ಟ್)",
+          "hi": "कटाई उपरांत (जुलाई-अगस्त)",
+          "mr": "तोडणीनंतर (जुलै-ऑगस्ट)"
+        },
+        "nPercent": 50,
+        "pPercent": 100,
+        "kPercent": 50,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply under canopy drip line in a shallow trench with manure and cover.",
+          "kn": "ಮರದ ಹಂದರದ ಕೆಳಗೆ ಸಣ್ಣ ಕಾಲುವೆ ತೆಗೆದು ಗೊಬ್ಬರ ಹಾಕಿ ಮುಚ್ಚಿ.",
+          "hi": "पेड़ के फैलाव के नीचे खंती खोदकर खाद डालें।",
+          "mr": "झाडाच्या परिघाखाली चर खोदून खत टाकावे."
+        }
+      },
+      {
+        "stage": "fruit_set",
+        "name": {
+          "en": "Fruit Set (February-March)",
+          "kn": "ಮಿಡಿ ಕಚ್ಚುವ ಹಂತ (ಫೆಬ್ರವರಿ-ಮಾರ್ಚ್)",
+          "hi": "फल लगने पर (फरवरी-मार्च)",
+          "mr": "मोहर धरल्यावर (फेब्रुवारी-मार्च)"
+        },
+        "nPercent": 50,
+        "pPercent": 0,
+        "kPercent": 50,
+        "timingDays": "210",
+        "instructions": {
+          "en": "Apply remaining N and K followed by light irrigation to support fruitlet sizing.",
+          "kn": "ಮಿಡಿ ಬೆಳೆಯಲು ಉಳಿದ ಗೊಬ್ಬರ ನೀಡಿ ಲಘುವಾಗಿ ನೀರು ಹಾಯಿಸಿ.",
+          "hi": "फल के विकास हेतु शेष खाद देकर हल्की सिंचाई करें।",
+          "mr": "फळे वाढण्यासाठी उर्वरित खत देऊन हलके पाणी द्या."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Foliar spray 0.2% Borax and 0.5% Potassium Nitrate (13:0:45) at marble size stage prevents fruit drop.",
+      "kn": "ಗೋಲಿ ಗಾತ್ರದ ಕಾಯಿ ಇದ್ದಾಗ ಬೋರಾಕ್ಸ್ 0.2% ಮತ್ತು 13:0:45 ಸಿಂಪಡಿಸಿ ಕಾಯಿ ಉದುರುವುದು ತಡೆಯಿರಿ.",
+      "hi": "फल झड़ने से रोकने के लिए बोरैक्स और पोटेशियम नाइट्रेट का छिड़काव करें।",
+      "mr": "फळगळ थांबवण्यासाठी बोरॅक्स व पोटॅशियम नायट्रेट फवारावे."
+    },
+    "cautionNotes": {
+      "en": "Withhold irrigation and nitrogen during October-December to encourage flower bud differentiation.",
+      "kn": "ಅಕ್ಟೋಬರ್-ಡಿಸೆಂಬರ್‌ನಲ್ಲಿ ನೀರು ಮತ್ತು ಸಾರಜನಕ ನಿಲ್ಲಿಸಿ ಹೂವು ಚೆನ್ನಾಗಿ ಮೂಡಲು ಬಿಡಿ.",
+      "hi": "अक्टूबर-दिसंबर में पानी और यूरिया न दें ताकि फूल अच्छे आएँ।",
+      "mr": "ऑक्टोबर-डिसेंबरमध्ये पाणी व नत्र बंद ठेवावे."
+    },
+    "source": "IIHR Bengaluru Mango Production Guide"
+  },
+  {
+    "cropId": "coconut",
+    "recommendedNpkKgPerHa": [
+      140.0,
+      80.0,
+      240.0
+    ],
+    "fymTonPerHa": 15.0,
+    "vermicompostTonPerHa": 3.0,
+    "splits": [
+      {
+        "stage": "pre_monsoon",
+        "name": {
+          "en": "Pre-Monsoon (May-June)",
+          "kn": "ಮುಂಗಾರಿಗೆ ಮುನ್ನ (ಮೇ-ಜೂನ್)",
+          "hi": "मानसून पूर्व (मई-जून)",
+          "mr": "पावसाळ्यापूर्वी (मे-जून)"
+        },
+        "nPercent": 50,
+        "pPercent": 50,
+        "kPercent": 50,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply in circular basin 1.5 to 2 m away from palm trunk.",
+          "kn": "ಬುಡದಿಂದ 1.5 ರಿಂದ 2 ಮೀಟರ್ ದೂರದ ವೃತ್ತಾಕಾರದ ಕಾಲುವೆಯಲ್ಲಿ ಹಾಕಿ.",
+          "hi": "तने से 1.5-2 मीटर दूर गोलाकार थाले में डालें।",
+          "mr": "खोडापासून १.५ ते २ मीटर अंतरावर आळे करून द्यावे."
+        }
+      },
+      {
+        "stage": "post_monsoon",
+        "name": {
+          "en": "Post-Monsoon (Sept-Oct)",
+          "kn": "ಹಿಂಗಾರಿನಲ್ಲಿ (ಸೆಪ್ಟೆಂಬರ್-ಅಕ್ಟೋಬರ್)",
+          "hi": "मानसून बाद (सितंबर-अक्टूबर)",
+          "mr": "पावसाळ्यानंतर (सप्टेंबर-ऑक्टोबर)"
+        },
+        "nPercent": 50,
+        "pPercent": 50,
+        "kPercent": 50,
+        "timingDays": "120",
+        "instructions": {
+          "en": "Apply second split with organic compost and green leaves, then mulch.",
+          "kn": "ಎರಡನೇ ಕಂತನ್ನು ಹಸಿರೆಲೆ ಮತ್ತು ಕಾಂಪೋಸ್ಟ್ ಜೊತೆ ಹಾಕಿ ಹೊದಿಕೆ ಮಾಡಿ.",
+          "hi": "हरी खाद के साथ दूसरी खुराक देकर पलवार करें।",
+          "mr": "सेंद्रिय खतासोबत दुसरा हप्ता देऊन आच्छादन करा."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Apply 1 kg Common Salt (NaCl) and 500 g Magnesium Sulphate per palm annually in non-coastal belts.",
+      "kn": "ಕರಾವಳಿಯೇತರ ಪ್ರದೇಶಗಳಲ್ಲಿ ಪ್ರತಿ ಮರಕ್ಕೆ ವಾರ್ಷಿಕ 1 ಕೆಜಿ ಉಪ್ಪು ಮತ್ತು 500 ಗ್ರಾಂ ಮೆಗ್ನೀಸಿಯಮ್ ಸಲ್ಫೇಟ್ ಹಾಕಿ.",
+      "hi": "प्रति पेड़ 1 किग्रा साधारण नमक और 500 ग्राम मैग्नीशियम सल्फेट दें।",
+      "mr": "प्रत्येक झाडाला १ किलो मीठ व ५०० ग्रॅम मॅग्नेशियम सल्फेट द्या."
+    },
+    "cautionNotes": {
+      "en": "Never dump chemical fertilizers directly against the trunk bark.",
+      "kn": "ರಸಗೊಬ್ಬರವನ್ನು ಮರದ ಬುಡದ ತೊಗಟೆಗೆ ತಾಗುವಂತೆ ನೇರವಾಗಿ ಹಾಕಬೇಡಿ.",
+      "hi": "खाद को कभी भी तने के बिल्कुल पास न डालें।",
+      "mr": "खत कधीही खोडाला चिकटवून टाकू नका."
+    },
+    "source": "CPCRI Kasaragod / UAS Bengaluru Coconut Manual"
+  },
+  {
+    "cropId": "arecanut",
+    "recommendedNpkKgPerHa": [
+      100.0,
+      40.0,
+      140.0
+    ],
+    "fymTonPerHa": 12.0,
+    "vermicompostTonPerHa": 3.0,
+    "splits": [
+      {
+        "stage": "pre_monsoon",
+        "name": {
+          "en": "Pre-Monsoon (May-June)",
+          "kn": "ಮುಂಗಾರಿಗೆ ಮುನ್ನ (ಮೇ-ಜೂನ್)",
+          "hi": "मानसून पूर्व (मई-जून)",
+          "mr": "पावसाळ्यापूर्वी (मे-जून)"
+        },
+        "nPercent": 33,
+        "pPercent": 100,
+        "kPercent": 33,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Open basin 0.75-1 m radius around palm and incorporate with compost.",
+          "kn": "ಬುಡದಿಂದ 1 ಮೀಟರ್ ದೂರದಲ್ಲಿ ಕಾಲುವೆ ತೆಗೆದು ಗೊಬ್ಬರ ಹಾಕಿ ಮುಚ್ಚಿ.",
+          "hi": "तने के चारों ओर 1 मीटर के घेरे में खाद डालें।",
+          "mr": "खोडाभोवती १ मीटर अंतरावर चर खोदून खत द्यावे."
+        }
+      },
+      {
+        "stage": "post_monsoon",
+        "name": {
+          "en": "Post-Monsoon (Sept-Oct)",
+          "kn": "ಹಿಂಗಾರಿನಲ್ಲಿ (ಸೆಪ್ಟೆಂಬರ್-ಅಕ್ಟೋಬರ್)",
+          "hi": "मानसून बाद (सितंबर-अक्टूबर)",
+          "mr": "पावसाळ्यानंतर (सप्टेंबर-ऑक्टोबर)"
+        },
+        "nPercent": 67,
+        "pPercent": 0,
+        "kPercent": 67,
+        "timingDays": "120",
+        "instructions": {
+          "en": "Apply main split after monsoon runoff stops; irrigate if rains cease.",
+          "kn": "ಮಳೆ ನಿಂತ ನಂತರ ಎರಡನೇ ಕಂತು ಹಾಕಿ ಅಗತ್ಯವಿದ್ದರೆ ನೀರು ಕೊಡಿ.",
+          "hi": "मानसून समाप्त होने पर मुख्य खुराक दें।",
+          "mr": "पाऊस थांबल्यावर मुख्य हप्ता द्यावा."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Apply 10-15 g Borax per palm annually to prevent nut cracking and malformation.",
+      "kn": "ಅಡಿಕೆ ಸೀಳುವುದು ತಡೆಯಲು ಪ್ರತಿ ಮರಕ್ಕೆ 10-15 ಗ್ರಾಂ ಬೋರಾಕ್ಸ್ ಹಾಕಿ.",
+      "hi": "सुपारी फटने से रोकने हेतु 10-15 ग्राम बोरैक्स दें।",
+      "mr": "सुपारी तडकणे थांबवण्यासाठी १०-१५ ग्रॅम बोरॅक्स द्या."
+    },
+    "cautionNotes": {
+      "en": "Arecanut roots are shallow; avoid deep digging that shears feeder roots.",
+      "kn": "ಅಡಿಕೆ ಬೇರುಗಳು ಮೇಲ್ಮೈನಲ್ಲಿರುತ್ತವೆ; ಆಳವಾಗಿ ಅಗೆಯಬೇಡಿ.",
+      "hi": "जड़ें उथली होती हैं, गहरी खुदाई न करें।",
+      "mr": "मुळे उथळ असतात, खोल चर खणू नका."
+    },
+    "source": "CPCRI Regional Station Vittal / UAS Shimoga"
+  },
+  {
+    "cropId": "coffee",
+    "recommendedNpkKgPerHa": [
+      120.0,
+      90.0,
+      120.0
+    ],
+    "fymTonPerHa": 10.0,
+    "vermicompostTonPerHa": 2.5,
+    "splits": [
+      {
+        "stage": "pre_blossom",
+        "name": {
+          "en": "Pre-Blossom (March)",
+          "kn": "ಹೂ ಅರಳುವ ಮುನ್ನ (ಮಾರ್ಚ್)",
+          "hi": "फूल खिलने से पूर्व (मार्च)",
+          "mr": "फुलोऱ्यापूर्वी (मार्च)"
+        },
+        "nPercent": 25,
+        "pPercent": 0,
+        "kPercent": 25,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply with blossom showers in drip circle.",
+          "kn": "ಹೂ ಮಳೆಯ ನಂತರ ಗಿಡದ ಸುತ್ತ ಗೊಬ್ಬರ ಹಾಕಿ.",
+          "hi": "हल्की फुहारों के बाद घेरे में खाद दें।",
+          "mr": "पावसाच्या हलक्या सरींनंतर खत द्यावे."
+        }
+      },
+      {
+        "stage": "post_blossom",
+        "name": {
+          "en": "Post-Blossom (May)",
+          "kn": "ಹೂ ಅರಳಿದ ನಂತರ (ಮೇ)",
+          "hi": "फूल खिलने बाद (मई)",
+          "mr": "फुलोऱ्यानंतर (मे)"
+        },
+        "nPercent": 25,
+        "pPercent": 50,
+        "kPercent": 25,
+        "timingDays": "60",
+        "instructions": {
+          "en": "Apply before South-West monsoon starts.",
+          "kn": "ಮುಂಗಾರು ಮಳೆ ಆರಂಭವಾಗುವ ಮುನ್ನ ಹಾಕಿ.",
+          "hi": "मानसून पूर्व खाद डालें।",
+          "mr": "मान्सून सुरू होण्यापूर्वी खत द्या."
+        }
+      },
+      {
+        "stage": "post_monsoon",
+        "name": {
+          "en": "Post-Monsoon (Sept-Oct)",
+          "kn": "ಹಿಂಗಾರಿನಲ್ಲಿ (ಸೆಪ್ಟೆಂಬರ್-ಅಕ್ಟೋಬರ್)",
+          "hi": "मानसून उपरांत (सितंबर-अक्टूबर)",
+          "mr": "पावसाळ्यानंतर (सप्टेंबर-ऑक्टोबर)"
+        },
+        "nPercent": 50,
+        "pPercent": 50,
+        "kPercent": 50,
+        "timingDays": "180",
+        "instructions": {
+          "en": "Major split to support heavy berry filling and next season wood.",
+          "kn": "ಕಾಫಿ ಹಣ್ಣಾಗಲು ಮತ್ತು ಮುಂದಿನ ವರ್ಷದ ಚಿಗುರಿಗೆ ಮುಖ್ಯ ಗೊಬ್ಬರ ಹಾಕಿ.",
+          "hi": "कॉफी फल भरने और नई लकड़ी के लिए मुख्य खुराक दें।",
+          "mr": "फळे पोसण्यासाठी मुख्य हप्ता द्यावा."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Foliar spray Zinc Sulphate 0.25% + Urea 0.5% during April and September.",
+      "kn": "ಏಪ್ರಿಲ್ ಮತ್ತು ಸೆಪ್ಟೆಂಬರ್‌ನಲ್ಲಿ 0.25% ಜಿಂಕ್ ಸಲ್ಫೇಟ್ ಸಿಂಪಡಿಸಿ.",
+      "hi": "अप्रैल व सितंबर में 0.25% जिंक सल्फेट का छिड़काव करें।",
+      "mr": "एप्रिल व सप्टेंबरमध्ये 0.25% झिंक सल्फेट फवारावे."
+    },
+    "cautionNotes": {
+      "en": "Do not apply fertilizer on bare dry soil during prolonged dry spells.",
+      "kn": "ಒಣ ಮಣ್ಣಿನಲ್ಲಿ ಗೊಬ್ಬರ ಹಾಕಬೇಡಿ; ತೇವಾಂಶ ಅತ್ಯಗತ್ಯ.",
+      "hi": "सूखी मिट्टी में खाद न डालें।",
+      "mr": "कोरड्या मातीत खत टाकू नका."
+    },
+    "source": "Central Coffee Research Institute (CCRI) Balehonnur"
+  },
+  {
+    "cropId": "pepper_black",
+    "recommendedNpkKgPerHa": [
+      100.0,
+      40.0,
+      140.0
+    ],
+    "fymTonPerHa": 10.0,
+    "vermicompostTonPerHa": 2.5,
+    "splits": [
+      {
+        "stage": "pre_monsoon",
+        "name": {
+          "en": "Pre-Monsoon (May-June)",
+          "kn": "ಮುಂಗಾರಿಗೆ ಮುನ್ನ (ಮೇ-ಜೂನ್)",
+          "hi": "मानसून पूर्व (मई-जून)",
+          "mr": "पावसाळ्यापूर्वी (मे-जून)"
+        },
+        "nPercent": 33,
+        "pPercent": 100,
+        "kPercent": 33,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply around standard support tree base 30 cm away and mulch with green leaves.",
+          "kn": "ಆಸರೆ ಮರದ ಬುಡದಿಂದ 30 ಸೆಂ.ಮೀ ದೂರದಲ್ಲಿ ಹಾಕಿ ಹಸಿರೆಲೆ ಹೊದಿಕೆ ಮಾಡಿ.",
+          "hi": "पेड़ के तने से 30 सेमी दूर खाद डालकर हरी पत्तियों से ढकें।",
+          "mr": "झाडापासून 30 सेमी अंतरावर खत देऊन पालापाचोळा टाका."
+        }
+      },
+      {
+        "stage": "post_monsoon",
+        "name": {
+          "en": "Post-Monsoon (August-Sept)",
+          "kn": "ಹಿಂಗಾರಿನಲ್ಲಿ (ಆಗಸ್ಟ್-ಸೆಪ್ಟೆಂಬರ್)",
+          "hi": "मानसून बाद (अगस्त-सितंबर)",
+          "mr": "पावसाळ्यानंतर (ऑगस्ट-सप्टेंबर)"
+        },
+        "nPercent": 67,
+        "pPercent": 0,
+        "kPercent": 67,
+        "timingDays": "90",
+        "instructions": {
+          "en": "Apply balance N and K to boost spike length and berry density.",
+          "kn": "ಉಳಿದ ಗೊಬ್ಬರ ನೀಡಿ ಕಾಳುಮೆಣಸಿನ ಉದ್ದನೆಯ ಗೊಂಚಲು ಪಡೆಯಿರಿ.",
+          "hi": "अच्छी बालियों और दानों के लिए बची खुराक दें।",
+          "mr": "चांगल्या लांबीच्या घडांसाठी उर्वरित खत द्यावे."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Spray 0.2% Zinc Sulphate + 0.1% Borax at spike emergence.",
+      "kn": "ಗೊಂಚಲು ಮೂಡುವಾಗ 0.2% ಜಿಂಕ್ ಮತ್ತು 0.1% ಬೋರಾಕ್ಸ್ ಸಿಂಪಡಿಸಿ.",
+      "hi": "बालियां निकलने पर जिंक व बोरैक्स का छिड़काव करें।",
+      "mr": "घडे निघताना झिंक व बोरॅक्स फवारावे."
+    },
+    "cautionNotes": {
+      "en": "Mix Trichoderma in FYM to prevent Phytophthora foot rot before applying chemical fertilizers.",
+      "kn": "ಕೊಳೆ ರೋಗ ತಡೆಯಲು ಕೊಟ್ಟಿಗೆ ಗೊಬ್ಬರದೊಂದಿಗೆ ಟ್ರೈಕೋಡರ್ಮಾ ಬೆರೆಸಿ ಹಾಕಿ.",
+      "hi": "सड़न रोग से बचाव हेतु गोबर की खाद में ट्राइकोडर्मा मिलाकर डालें।",
+      "mr": "सड रोग टाळण्यासाठी ट्रायकोडर्मा शेणखतात मिसळून द्या."
+    },
+    "source": "IISR Kozhikode / UAS Dharwad Spices Technology"
+  },
+  {
+    "cropId": "pomegranate",
+    "recommendedNpkKgPerHa": [
+      200.0,
+      100.0,
+      200.0
+    ],
+    "fymTonPerHa": 20.0,
+    "vermicompostTonPerHa": 4.0,
+    "splits": [
+      {
+        "stage": "bahar_treatment",
+        "name": {
+          "en": "At Bahar Initiation",
+          "kn": "ಬಹಾರ್ ಆರಂಭದ ವೇಳೆ",
+          "hi": "बहार शुरुआत पर",
+          "mr": "बहार धरताना"
+        },
+        "nPercent": 40,
+        "pPercent": 100,
+        "kPercent": 25,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply with organic manure in basin after stress-release irrigation.",
+          "kn": "ಒತ್ತಡದ ನಂತರ ನೀರು ಕೊಟ್ಟು ಗೊಬ್ಬರ ಹಾಕಿ.",
+          "hi": "तान तोड़ने के बाद पहली सिंचाई के साथ खाद दें।",
+          "mr": "ताण तोडल्यानंतर पहिल्या पाण्यासोबत खत द्यावे."
+        }
+      },
+      {
+        "stage": "fruit_development",
+        "name": {
+          "en": "Fruit Development (60 days)",
+          "kn": "ಕಾಯಿ ಬೆಳವಣಿಗೆ (60 ದಿನ)",
+          "hi": "फल विकास (60 दिन)",
+          "mr": "फळ वाढीचा काळ (60 दिवस)"
+        },
+        "nPercent": 40,
+        "pPercent": 0,
+        "kPercent": 50,
+        "timingDays": "60",
+        "instructions": {
+          "en": "Apply to support aril development and fruit sizing.",
+          "kn": "ದಾಳಿಂಬೆ ಹಣ್ಣಿನ ಕಾಳು ತುಂಬಲು ಗೊಬ್ಬರ ನೀಡಿ.",
+          "hi": "दानों के अच्छे विकास के लिए खाद दें।",
+          "mr": "दाणे भरण्यासाठी खताचा हप्ता द्या."
+        }
+      },
+      {
+        "stage": "fruit_maturity",
+        "name": {
+          "en": "Pre-Harvest (120 days)",
+          "kn": "ಕಟಾವಿಗೆ ಮುನ್ನ (120 ದಿನ)",
+          "hi": "कटाई पूर्व (120 दिन)",
+          "mr": "तोडणीपूर्वी (120 दिवस)"
+        },
+        "nPercent": 20,
+        "pPercent": 0,
+        "kPercent": 25,
+        "timingDays": "120",
+        "instructions": {
+          "en": "Apply high potassium to enhance rind color and reduce cracking.",
+          "kn": "ಹಣ್ಣಿನ ಸಿಪ್ಪೆ ಸೀಳುವುದನ್ನು ತಡೆಯಲು ಮತ್ತು ಬಣ್ಣ ಬರಲು ಪೊಟ್ಯಾಶ್ ಹಾಕಿ.",
+          "hi": "फल फटने से रोकने और रंग सुधारने के लिए पोटाश दें।",
+          "mr": "फळे तडकणे थांबवण्यासाठी व रंगासाठी पालाश द्या."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Spray Calcium Nitrate (0.5%) + Boron (0.2%) thrice during fruit expansion to curb fruit cracking.",
+      "kn": "ದಾಳಿಂಬೆ ಸಿಡಿಯುವುದನ್ನು ತಡೆಯಲು ಕ್ಯಾಲ್ಸಿಯಂ ನೈಟ್ರೇಟ್ ಮತ್ತು ಬೋರಾನ್ ಸಿಂಪಡಿಸಿ.",
+      "hi": "फल फटने से रोकने हेतु कैल्शियम नाइट्रेट व बोरॉन फवारें।",
+      "mr": "फळे तडकणे टाळण्यासाठी कॅल्शियम व बोरॉन फवारावे."
+    },
+    "cautionNotes": {
+      "en": "Never provide heavy nitrogen during fruit maturity or arils will stay pale and watery.",
+      "kn": "ಹಣ್ಣು ಪಕ್ವವಾಗುವಾಗ ಸಾರಜನಕ ಹೆಚ್ಚಿಸಬೇಡಿ, ಹಣ್ಣಿನ ರುಚಿ ಹಾಳಾಗುತ್ತದೆ.",
+      "hi": "फल पकते समय ज्यादा यूरिया न दें।",
+      "mr": "फळ पिकताना जास्त नत्र देऊ नये."
+    },
+    "source": "NRC Pomegranate Solapur / UAS Raichur Package"
+  },
+  {
+    "cropId": "sunflower",
+    "recommendedNpkKgPerHa": [
+      60.0,
+      75.0,
+      60.0
+    ],
+    "fymTonPerHa": 7.5,
+    "vermicompostTonPerHa": 2.0,
+    "splits": [
+      {
+        "stage": "basal",
+        "name": {
+          "en": "Basal",
+          "kn": "ಬಿತ್ತನೆ ಸಮಯದಲ್ಲಿ",
+          "hi": "बुवाई पर",
+          "mr": "पेरणीवेळी"
+        },
+        "nPercent": 50,
+        "pPercent": 100,
+        "kPercent": 100,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply 50% N, full P and K in furrows.",
+          "kn": "50% ಸಾರಜನಕ, ಪೂರ್ಣ ರಂಜಕ ಮತ್ತು ಪೊಟ್ಯಾಶ್ ಸಾಲಿನಲ್ಲಿ ಹಾಕಿ.",
+          "hi": "आधी नत्र, पूरी फास्फोरस व पोटाश बुवाई पर दें।",
+          "mr": "अर्धे नत्र, पूर्ण स्फुरद व पालाश पेरणीवेळी द्या."
+        }
+      },
+      {
+        "stage": "buttoning",
+        "name": {
+          "en": "Star/Button Stage (30-35 DAS)",
+          "kn": "ಮೊಗ್ಗು ಬರುವ ಹಂತ (30-35 ದಿನ)",
+          "hi": "कली बनते समय (30-35 दिन)",
+          "mr": "कळी लागताना (30-35 दिवस)"
+        },
+        "nPercent": 50,
+        "pPercent": 0,
+        "kPercent": 0,
+        "timingDays": "30-35",
+        "instructions": {
+          "en": "Top dress remaining N and irrigate.",
+          "kn": "ಉಳಿದ ಸಾರಜನಕ ಹಾಕಿ ನೀರು ಕೊಡಿ.",
+          "hi": "शेष नाइट्रोजन डालकर सिंचाई करें।",
+          "mr": "उरलेले नत्र देऊन पाणी द्यावे."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Boron application (Borax 0.2% spray at ray floret opening) is critical for seed setting and filling.",
+      "kn": "ಹೂ ಅರಳುವಾಗ ಬೋರಾಕ್ಸ್ 0.2% ಸಿಂಪಡಿಸಿದರೆ ಟೊಳ್ಳು ಕಾಳು ಕಡಿಮೆಯಾಗುತ್ತದೆ.",
+      "hi": "फूल खिलते समय 0.2% बोरैक्स का छिड़काव बीज भराव के लिए अत्यंत जरूरी है।",
+      "mr": "दाणे भरण्यासाठी 0.2% बोरॅक्स फवारणे आवश्यक आहे."
+    },
+    "cautionNotes": {
+      "en": "Lack of boron leads to chaffy heads and low oil content.",
+      "kn": "ಬೋರಾನ್ ಕೊರತೆಯಿಂದ ಕೇವಲ ಹೊಟ್ಟು ಬರುತ್ತದೆ, ಎಣ್ಣೆ ಅಂಶ ಕಡಿಮೆಯಾಗುತ್ತದೆ.",
+      "hi": "बोरॉन की कमी से बीज खाली रह जाते हैं।",
+      "mr": "बोरॉनच्या कमतरतेमुळे बिया पोचट राहतात."
+    },
+    "source": "IIOR Hyderabad / UAS Dharwad Sunflower Guide"
+  },
+  {
+    "cropId": "bengal_gram",
+    "recommendedNpkKgPerHa": [
+      20.0,
+      50.0,
+      20.0
+    ],
+    "fymTonPerHa": 5.0,
+    "vermicompostTonPerHa": 1.5,
+    "splits": [
+      {
+        "stage": "basal",
+        "name": {
+          "en": "Basal",
+          "kn": "ಬಿತ್ತನೆ ಸಮಯದಲ್ಲಿ",
+          "hi": "बुवाई पर",
+          "mr": "पेरणीवेळी"
+        },
+        "nPercent": 100,
+        "pPercent": 100,
+        "kPercent": 100,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply entire dose at sowing 5 cm below seed level. Inoculate seed with Rhizobium.",
+          "kn": "ಬಿತ್ತನೆ ಸಮಯದಲ್ಲಿ ಸಂಪೂರ್ಣ ಗೊಬ್ಬರ ಹಾಕಿ. ರೈಜೋಬಿಯಂ ಲೇಪಿಸಿ.",
+          "hi": "बुवाई पर पूरी खाद डालें और राइजोबियम से उपचार करें।",
+          "mr": "पेरणीवेळी संपूर्ण खत द्यावे व रायझोबियम लावावे."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Spray 2% Urea or 1% 19:19:19 at flowering and pod development to enhance grain weight.",
+      "kn": "ಹೂ ಮತ್ತು ಕಾಯಿ ಕಟ್ಟುವಾಗ 2% ಯೂರಿಯಾ ಸಿಂಪಡಿಸಿದರೆ ತೂಕ ಹೆಚ್ಚುತ್ತದೆ.",
+      "hi": "फूल और फली बनते समय 2% यूरिया का छिड़काव पैदावार बढ़ाता है।",
+      "mr": "फुलधारणेवेळी 2% युरिया फवारल्यास वजन वाढते."
+    },
+    "cautionNotes": {
+      "en": "Do not apply heavy nitrogen fertilizer; it causes vegetative rank growth and poor pod set.",
+      "kn": "ಕಡಲೆಗೆ ಹೆಚ್ಚು ಯೂರಿಯಾ ಹಾಕಿದರೆ ಗಿಡ ಮಾತ್ರ ಬೆಳೆದು ಕಾಯಿ ಬಿಡುವುದಿಲ್ಲ.",
+      "hi": "चना में ज्यादा यूरिया न डालें।",
+      "mr": "हरभऱ्याला जास्त नत्र देऊ नये."
+    },
+    "source": "ICAR-IIPR Kanpur / UAS Raichur Chickpea Guide"
+  },
+  {
+    "cropId": "green_gram",
+    "recommendedNpkKgPerHa": [
+      20.0,
+      40.0,
+      20.0
+    ],
+    "fymTonPerHa": 5.0,
+    "vermicompostTonPerHa": 1.5,
+    "splits": [
+      {
+        "stage": "basal",
+        "name": {
+          "en": "Basal",
+          "kn": "ಬಿತ್ತನೆ ಸಮಯದಲ್ಲಿ",
+          "hi": "बुवाई पर",
+          "mr": "पेरणीवेळी"
+        },
+        "nPercent": 100,
+        "pPercent": 100,
+        "kPercent": 100,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply full N, P, and K in furrows at sowing.",
+          "kn": "ಬಿತ್ತನೆ ಸಾಲಿನಲ್ಲಿ ಪೂರ್ಣ ಗೊಬ್ಬರ ಹಾಕಿ.",
+          "hi": "बुवाई पर पूरी खाद डालें।",
+          "mr": "पेरणीवेळी संपूर्ण खत द्या."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Foliar spray DAP 2% at flower initiation boosts pod number.",
+      "kn": "ಹೂ ಬಿಡುವಾಗ 2% ಡಿಎಪಿ ಸಿಂಪಡಿಸಿ ಕಾಯಿ ಸಂಖ್ಯೆ ಹೆಚ್ಚಿಸಿ.",
+      "hi": "फूल आने पर 2% डीएपी का छिड़काव करें।",
+      "mr": "फुलधारणेवेळी 2% डीएपी फवारावे."
+    },
+    "cautionNotes": {
+      "en": "Avoid waterlogged conditions post-fertilization.",
+      "kn": "ಗೊಬ್ಬರ ಹಾಕಿದ ನಂತರ ನೀರು ನಿಲ್ಲದಂತೆ ನೋಡಿಕೊಳ್ಳಿ.",
+      "hi": "जलभराव से बचाएँ।",
+      "mr": "पाणी साचू देऊ नका."
+    },
+    "source": "UAS Bengaluru Pulses Package"
+  },
+  {
+    "cropId": "soybean",
+    "recommendedNpkKgPerHa": [
+      30.0,
+      60.0,
+      30.0
+    ],
+    "fymTonPerHa": 6.0,
+    "vermicompostTonPerHa": 2.0,
+    "splits": [
+      {
+        "stage": "basal",
+        "name": {
+          "en": "Basal",
+          "kn": "ಬಿತ್ತನೆ ಸಮಯದಲ್ಲಿ",
+          "hi": "बुवाई पर",
+          "mr": "पेरणीवेळी"
+        },
+        "nPercent": 100,
+        "pPercent": 100,
+        "kPercent": 100,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply full NPK dose at sowing. Inoculate seed with Bradyrhizobium.",
+          "kn": "ಬಿತ್ತನೆ ವೇಳೆ ಪೂರ್ಣ ಗೊಬ್ಬರ ಹಾಕಿ. ಬ್ರಾಡಿರೈಜೋಬಿಯಂ ಉಪಚರಿಸಿ.",
+          "hi": "बुवाई पर पूरी खाद डालें और राइजोबियम से उपचार करें।",
+          "mr": "पेरणीवेळी संपूर्ण खत द्यावे."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Apply 30 kg/ha Sulphur basal to boost oil and protein content.",
+      "kn": "ಎಣ್ಣೆ ಮತ್ತು ಪ್ರೋಟೀನ್ ಹೆಚ್ಚಿಸಲು 30 ಕೆಜಿ ಸಲ್ಫರ್ ಹಾಕಿ.",
+      "hi": "तेल व प्रोटीन के लिए 30 किग्रा गंधक प्रति हेक्टेयर दें।",
+      "mr": "तेल व प्रथिनांसाठी 30 किलो गंधक द्या."
+    },
+    "cautionNotes": {
+      "en": "Ensure seed does not touch chemical fertilizer directly.",
+      "kn": "ಬೀಜ ರಾಸಾಯನಿಕ ಗೊಬ್ಬರಕ್ಕೆ ನೇರವಾಗಿ ತಾಗದಂತೆ ಎಚ್ಚರವಹಿಸಿ.",
+      "hi": "बीज को खाद से दूर रखें।",
+      "mr": "बियाणे खताच्या थेट संपर्कात येऊ देऊ नका."
+    },
+    "source": "IISR Indore / UAS Dharwad Soybean Production"
+  },
+  {
+    "cropId": "bajra",
+    "recommendedNpkKgPerHa": [
+      60.0,
+      30.0,
+      30.0
+    ],
+    "fymTonPerHa": 5.0,
+    "vermicompostTonPerHa": 1.5,
+    "splits": [
+      {
+        "stage": "basal",
+        "name": {
+          "en": "Basal",
+          "kn": "ಬಿತ್ತನೆ ಸಮಯದಲ್ಲಿ",
+          "hi": "बुवाई पर",
+          "mr": "पेरणीवेळी"
+        },
+        "nPercent": 50,
+        "pPercent": 100,
+        "kPercent": 100,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply half N and all P & K at sowing.",
+          "kn": "ಅರ್ಧ ಸಾರಜನಕ ಮತ್ತು ಪೂರ್ಣ ರಂಜಕ, ಪೊಟ್ಯಾಶ್ ಹಾಕಿ.",
+          "hi": "आधी नत्र और पूरी फास्फोरस व पोटाश दें।",
+          "mr": "अर्धे नत्र, पूर्ण स्फुरद व पालाश द्या."
+        }
+      },
+      {
+        "stage": "tillering",
+        "name": {
+          "en": "Tillering (30 DAS)",
+          "kn": "ಕವಲೊಡೆಯುವ ಹಂತ (30 ದಿನ)",
+          "hi": "कल्ले बनते समय (30 दिन)",
+          "mr": "फुटवे फुटताना (30 दिवस)"
+        },
+        "nPercent": 50,
+        "pPercent": 0,
+        "kPercent": 0,
+        "timingDays": "30",
+        "instructions": {
+          "en": "Top dress balance N after intercultivation.",
+          "kn": "ಉಳಿದ ಸಾರಜನಕವನ್ನು ಎಡೆಕುಂಟೆ ಹೊಡೆದ ನಂತರ ಹಾಕಿ.",
+          "hi": "गुड़ाई के बाद बची नाइट्रोजन डालें।",
+          "mr": "कोळपणीनंतर उरलेले नत्र द्यावे."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Zinc sulphate @ 15 kg/ha in zinc-deficient dryland soils.",
+      "kn": "ಒಣಭೂಮಿಗೆ 15 ಕೆಜಿ ಜಿಂಕ್ ಸಲ್ಫೇಟ್ ಹಾಕಿ.",
+      "hi": "15 किग्रा जिंक सल्फेट डालें।",
+      "mr": "15 किलो झिंक सल्फेट द्या."
+    },
+    "cautionNotes": {
+      "en": "Apply top dressing only when soil moisture is adequate.",
+      "kn": "ಮಣ್ಣಿನಲ್ಲಿ ತೇವಾಂಶವಿದ್ದಾಗ ಮಾತ್ರ ಮೇಲುಗೊಬ್ಬರ ಹಾಕಿ.",
+      "hi": "नमी होने पर ही खाद डालें।",
+      "mr": "ओलावा असल्यासच खत द्यावे."
+    },
+    "source": "ICAR-AICRP on Pearl Millet / UAS Raichur"
+  },
+  {
+    "cropId": "black_gram",
+    "recommendedNpkKgPerHa": [
+      20.0,
+      40.0,
+      20.0
+    ],
+    "fymTonPerHa": 5.0,
+    "vermicompostTonPerHa": 1.5,
+    "splits": [
+      {
+        "stage": "basal",
+        "name": {
+          "en": "Basal",
+          "kn": "ಬಿತ್ತನೆ ಸಮಯದಲ್ಲಿ",
+          "hi": "बुवाई पर",
+          "mr": "पेरणीवेळी"
+        },
+        "nPercent": 100,
+        "pPercent": 100,
+        "kPercent": 100,
+        "timingDays": "0",
+        "instructions": {
+          "en": "Apply all fertilizers in furrows at sowing.",
+          "kn": "ಬಿತ್ತನೆ ಸಮಯದಲ್ಲಿ ಎಲ್ಲಾ ಗೊಬ್ಬರಗಳನ್ನು ಸಾಲಿನಲ್ಲಿ ಹಾಕಿ.",
+          "hi": "बुवाई पर पूरी खाद डालें।",
+          "mr": "पेरणीवेळी सर्व खते द्यावीत."
+        }
+      }
+    ],
+    "micronutrients": {
+      "en": "Foliar spray 2% DAP at flower initiation and 15 days later enhances pod yield.",
+      "kn": "ಹೂ ಬಿಡುವಾಗ 2% ಡಿಎಪಿ ಸಿಂಪಡಿಸಿ.",
+      "hi": "फूल आने पर 2% डीएपी फवारें।",
+      "mr": "फुलधारणेवेळी 2% डीएपी फवारावे."
+    },
+    "cautionNotes": {
+      "en": "Pulses need phosphorus for root nodulation; do not skip phosphate.",
+      "kn": "ರಂಜಕವನ್ನು ತಪ್ಪಿಸಬೇಡಿ, ಇದು ಬೇರು ಗಂಟುಗಳಿಗೆ ಅಗತ್ಯ.",
+      "hi": "फास्फोरस कभी न छोड़ें।",
+      "mr": "स्फुरद देणे चुकवू नका."
+    },
+    "source": "UAS Dharwad Pulses Guidelines"
+  }
+]

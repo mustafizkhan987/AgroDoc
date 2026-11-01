@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Base activity theme: no action bar; Compose handles the entire UI surface.
+        The Material 3 colour scheme is set in AgroDocTheme (Compose), so we only
+        need a minimal XML theme here to satisfy AppCompat / system UI.
+    -->
+    <style name="Theme.AgroDoc" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/md_primary</item>
+        <item name="android:navigationBarColor">@color/md_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

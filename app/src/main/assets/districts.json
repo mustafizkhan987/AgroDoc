@@ -1,0 +1,590 @@
+[
+  {
+    "id": "karnataka_bengaluru_urban",
+    "state": "Karnataka",
+    "district": "Bengaluru Urban",
+    "lat": 12.9716,
+    "lon": 77.5946
+  },
+  {
+    "id": "karnataka_bengaluru_rural",
+    "state": "Karnataka",
+    "district": "Bengaluru Rural",
+    "lat": 13.2847,
+    "lon": 77.5753
+  },
+  {
+    "id": "karnataka_bagalkote",
+    "state": "Karnataka",
+    "district": "Bagalkote",
+    "lat": 16.1856,
+    "lon": 75.6961
+  },
+  {
+    "id": "karnataka_ballari",
+    "state": "Karnataka",
+    "district": "Ballari",
+    "lat": 15.1394,
+    "lon": 76.9214
+  },
+  {
+    "id": "karnataka_belagavi",
+    "state": "Karnataka",
+    "district": "Belagavi",
+    "lat": 15.8497,
+    "lon": 74.4977
+  },
+  {
+    "id": "karnataka_bidar",
+    "state": "Karnataka",
+    "district": "Bidar",
+    "lat": 17.9104,
+    "lon": 77.5199
+  },
+  {
+    "id": "karnataka_chamarajanagara",
+    "state": "Karnataka",
+    "district": "Chamarajanagara",
+    "lat": 11.9261,
+    "lon": 76.9437
+  },
+  {
+    "id": "karnataka_chikkaballapura",
+    "state": "Karnataka",
+    "district": "Chikkaballapura",
+    "lat": 13.4355,
+    "lon": 77.7275
+  },
+  {
+    "id": "karnataka_chikkamagaluru",
+    "state": "Karnataka",
+    "district": "Chikkamagaluru",
+    "lat": 13.3153,
+    "lon": 75.7754
+  },
+  {
+    "id": "karnataka_chitradurga",
+    "state": "Karnataka",
+    "district": "Chitradurga",
+    "lat": 14.2251,
+    "lon": 76.398
+  },
+  {
+    "id": "karnataka_dakshina_kannada",
+    "state": "Karnataka",
+    "district": "Dakshina Kannada",
+    "lat": 12.8703,
+    "lon": 75.2479
+  },
+  {
+    "id": "karnataka_davanagere",
+    "state": "Karnataka",
+    "district": "Davanagere",
+    "lat": 14.4644,
+    "lon": 75.9218
+  },
+  {
+    "id": "karnataka_dharwad",
+    "state": "Karnataka",
+    "district": "Dharwad",
+    "lat": 15.4589,
+    "lon": 75.0078
+  },
+  {
+    "id": "karnataka_gadag",
+    "state": "Karnataka",
+    "district": "Gadag",
+    "lat": 15.4319,
+    "lon": 75.6355
+  },
+  {
+    "id": "karnataka_hassan",
+    "state": "Karnataka",
+    "district": "Hassan",
+    "lat": 13.0033,
+    "lon": 76.1004
+  },
+  {
+    "id": "karnataka_haveri",
+    "state": "Karnataka",
+    "district": "Haveri",
+    "lat": 14.7954,
+    "lon": 75.4026
+  },
+  {
+    "id": "karnataka_kalaburagi",
+    "state": "Karnataka",
+    "district": "Kalaburagi",
+    "lat": 17.3297,
+    "lon": 76.8343
+  },
+  {
+    "id": "karnataka_kodagu",
+    "state": "Karnataka",
+    "district": "Kodagu",
+    "lat": 12.3375,
+    "lon": 75.8069
+  },
+  {
+    "id": "karnataka_kolar",
+    "state": "Karnataka",
+    "district": "Kolar",
+    "lat": 13.1367,
+    "lon": 78.1291
+  },
+  {
+    "id": "karnataka_koppal",
+    "state": "Karnataka",
+    "district": "Koppal",
+    "lat": 15.3478,
+    "lon": 76.1554
+  },
+  {
+    "id": "karnataka_mandya",
+    "state": "Karnataka",
+    "district": "Mandya",
+    "lat": 12.5218,
+    "lon": 76.8951
+  },
+  {
+    "id": "karnataka_mysuru",
+    "state": "Karnataka",
+    "district": "Mysuru",
+    "lat": 12.2958,
+    "lon": 76.6394
+  },
+  {
+    "id": "karnataka_raichur",
+    "state": "Karnataka",
+    "district": "Raichur",
+    "lat": 16.2076,
+    "lon": 77.3463
+  },
+  {
+    "id": "karnataka_ramanagara",
+    "state": "Karnataka",
+    "district": "Ramanagara",
+    "lat": 12.7209,
+    "lon": 77.2799
+  },
+  {
+    "id": "karnataka_shivamogga",
+    "state": "Karnataka",
+    "district": "Shivamogga",
+    "lat": 13.9299,
+    "lon": 75.5681
+  },
+  {
+    "id": "karnataka_tumakuru",
+    "state": "Karnataka",
+    "district": "Tumakuru",
+    "lat": 13.3379,
+    "lon": 77.1173
+  },
+  {
+    "id": "karnataka_udupi",
+    "state": "Karnataka",
+    "district": "Udupi",
+    "lat": 13.3409,
+    "lon": 74.7421
+  },
+  {
+    "id": "karnataka_uttara_kannada",
+    "state": "Karnataka",
+    "district": "Uttara Kannada",
+    "lat": 14.7981,
+    "lon": 74.5516
+  },
+  {
+    "id": "karnataka_vijayanagara",
+    "state": "Karnataka",
+    "district": "Vijayanagara",
+    "lat": 15.275,
+    "lon": 76.386
+  },
+  {
+    "id": "karnataka_vijayapura",
+    "state": "Karnataka",
+    "district": "Vijayapura",
+    "lat": 16.8302,
+    "lon": 75.71
+  },
+  {
+    "id": "karnataka_yadgir",
+    "state": "Karnataka",
+    "district": "Yadgir",
+    "lat": 16.7701,
+    "lon": 77.1376
+  },
+  {
+    "id": "maharashtra_pune",
+    "state": "Maharashtra",
+    "district": "Pune",
+    "lat": 18.5204,
+    "lon": 73.8567
+  },
+  {
+    "id": "maharashtra_nagpur",
+    "state": "Maharashtra",
+    "district": "Nagpur",
+    "lat": 21.1458,
+    "lon": 79.0882
+  },
+  {
+    "id": "maharashtra_nashik",
+    "state": "Maharashtra",
+    "district": "Nashik",
+    "lat": 19.9975,
+    "lon": 73.7898
+  },
+  {
+    "id": "maharashtra_aurangabad",
+    "state": "Maharashtra",
+    "district": "Chhatrapati Sambhajinagar",
+    "lat": 19.8762,
+    "lon": 75.3433
+  },
+  {
+    "id": "maharashtra_kolhapur",
+    "state": "Maharashtra",
+    "district": "Kolhapur",
+    "lat": 16.705,
+    "lon": 74.2433
+  },
+  {
+    "id": "maharashtra_solapur",
+    "state": "Maharashtra",
+    "district": "Solapur",
+    "lat": 17.6599,
+    "lon": 75.9064
+  },
+  {
+    "id": "maharashtra_amravati",
+    "state": "Maharashtra",
+    "district": "Amravati",
+    "lat": 20.932,
+    "lon": 77.7523
+  },
+  {
+    "id": "andhra_pradesh_visakhapatnam",
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "lat": 17.6868,
+    "lon": 83.2185
+  },
+  {
+    "id": "andhra_pradesh_vijayawada",
+    "state": "Andhra Pradesh",
+    "district": "Krishna",
+    "lat": 16.5062,
+    "lon": 80.648
+  },
+  {
+    "id": "andhra_pradesh_guntur",
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "lat": 16.3067,
+    "lon": 80.4365
+  },
+  {
+    "id": "andhra_pradesh_kurnool",
+    "state": "Andhra Pradesh",
+    "district": "Kurnool",
+    "lat": 15.8281,
+    "lon": 78.0373
+  },
+  {
+    "id": "andhra_pradesh_anantapur",
+    "state": "Andhra Pradesh",
+    "district": "Anantapur",
+    "lat": 14.6819,
+    "lon": 77.6006
+  },
+  {
+    "id": "telangana_hyderabad",
+    "state": "Telangana",
+    "district": "Hyderabad",
+    "lat": 17.385,
+    "lon": 78.4867
+  },
+  {
+    "id": "telangana_warangal",
+    "state": "Telangana",
+    "district": "Warangal",
+    "lat": 17.9689,
+    "lon": 79.5941
+  },
+  {
+    "id": "telangana_karimnagar",
+    "state": "Telangana",
+    "district": "Karimnagar",
+    "lat": 18.4386,
+    "lon": 79.1288
+  },
+  {
+    "id": "telangana_nizamabad",
+    "state": "Telangana",
+    "district": "Nizamabad",
+    "lat": 18.6725,
+    "lon": 78.0941
+  },
+  {
+    "id": "tamil_nadu_chennai",
+    "state": "Tamil Nadu",
+    "district": "Chennai",
+    "lat": 13.0827,
+    "lon": 80.2707
+  },
+  {
+    "id": "tamil_nadu_coimbatore",
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "lat": 11.0168,
+    "lon": 76.9558
+  },
+  {
+    "id": "tamil_nadu_madurai",
+    "state": "Tamil Nadu",
+    "district": "Madurai",
+    "lat": 9.9252,
+    "lon": 78.1198
+  },
+  {
+    "id": "tamil_nadu_salem",
+    "state": "Tamil Nadu",
+    "district": "Salem",
+    "lat": 11.6643,
+    "lon": 78.146
+  },
+  {
+    "id": "tamil_nadu_tiruchirappalli",
+    "state": "Tamil Nadu",
+    "district": "Tiruchirappalli",
+    "lat": 10.7905,
+    "lon": 78.7047
+  },
+  {
+    "id": "kerala_thiruvananthapuram",
+    "state": "Kerala",
+    "district": "Thiruvananthapuram",
+    "lat": 8.5241,
+    "lon": 76.9366
+  },
+  {
+    "id": "kerala_kochi",
+    "state": "Kerala",
+    "district": "Ernakulam",
+    "lat": 9.9312,
+    "lon": 76.2673
+  },
+  {
+    "id": "kerala_kozhikode",
+    "state": "Kerala",
+    "district": "Kozhikode",
+    "lat": 11.2588,
+    "lon": 75.7804
+  },
+  {
+    "id": "kerala_wayanad",
+    "state": "Kerala",
+    "district": "Wayanad",
+    "lat": 11.6854,
+    "lon": 76.132
+  },
+  {
+    "id": "kerala_palakkad",
+    "state": "Kerala",
+    "district": "Palakkad",
+    "lat": 10.7867,
+    "lon": 76.6548
+  },
+  {
+    "id": "uttar_pradesh_lucknow",
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "lat": 26.8467,
+    "lon": 80.9462
+  },
+  {
+    "id": "uttar_pradesh_kanpur",
+    "state": "Uttar Pradesh",
+    "district": "Kanpur",
+    "lat": 26.4499,
+    "lon": 80.3319
+  },
+  {
+    "id": "uttar_pradesh_varanasi",
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "lat": 25.3176,
+    "lon": 82.9739
+  },
+  {
+    "id": "uttar_pradesh_agra",
+    "state": "Uttar Pradesh",
+    "district": "Agra",
+    "lat": 27.1767,
+    "lon": 78.0081
+  },
+  {
+    "id": "uttar_pradesh_meerut",
+    "state": "Uttar Pradesh",
+    "district": "Meerut",
+    "lat": 28.9845,
+    "lon": 77.7064
+  },
+  {
+    "id": "punjab_ludhiana",
+    "state": "Punjab",
+    "district": "Ludhiana",
+    "lat": 30.901,
+    "lon": 75.8573
+  },
+  {
+    "id": "punjab_amritsar",
+    "state": "Punjab",
+    "district": "Amritsar",
+    "lat": 31.634,
+    "lon": 74.8723
+  },
+  {
+    "id": "punjab_jalandhar",
+    "state": "Punjab",
+    "district": "Jalandhar",
+    "lat": 31.326,
+    "lon": 75.5762
+  },
+  {
+    "id": "punjab_patiala",
+    "state": "Punjab",
+    "district": "Patiala",
+    "lat": 30.3398,
+    "lon": 76.3869
+  },
+  {
+    "id": "gujarat_ahmedabad",
+    "state": "Gujarat",
+    "district": "Ahmedabad",
+    "lat": 23.0225,
+    "lon": 72.5714
+  },
+  {
+    "id": "gujarat_surat",
+    "state": "Gujarat",
+    "district": "Surat",
+    "lat": 21.1702,
+    "lon": 72.8311
+  },
+  {
+    "id": "gujarat_rajkot",
+    "state": "Gujarat",
+    "district": "Rajkot",
+    "lat": 22.3039,
+    "lon": 70.8022
+  },
+  {
+    "id": "gujarat_vadodara",
+    "state": "Gujarat",
+    "district": "Vadodara",
+    "lat": 22.3072,
+    "lon": 73.1812
+  },
+  {
+    "id": "rajasthan_jaipur",
+    "state": "Rajasthan",
+    "district": "Jaipur",
+    "lat": 26.9124,
+    "lon": 75.7873
+  },
+  {
+    "id": "rajasthan_jodhpur",
+    "state": "Rajasthan",
+    "district": "Jodhpur",
+    "lat": 26.2389,
+    "lon": 73.0243
+  },
+  {
+    "id": "rajasthan_udaipur",
+    "state": "Rajasthan",
+    "district": "Udaipur",
+    "lat": 24.5854,
+    "lon": 73.7125
+  },
+  {
+    "id": "rajasthan_kota",
+    "state": "Rajasthan",
+    "district": "Kota",
+    "lat": 25.2138,
+    "lon": 75.8648
+  },
+  {
+    "id": "madhya_pradesh_bhopal",
+    "state": "Madhya Pradesh",
+    "district": "Bhopal",
+    "lat": 23.2599,
+    "lon": 77.4126
+  },
+  {
+    "id": "madhya_pradesh_indore",
+    "state": "Madhya Pradesh",
+    "district": "Indore",
+    "lat": 22.7196,
+    "lon": 75.8577
+  },
+  {
+    "id": "madhya_pradesh_jabalpur",
+    "state": "Madhya Pradesh",
+    "district": "Jabalpur",
+    "lat": 23.1815,
+    "lon": 79.9864
+  },
+  {
+    "id": "madhya_pradesh_gwalior",
+    "state": "Madhya Pradesh",
+    "district": "Gwalior",
+    "lat": 26.2183,
+    "lon": 78.1828
+  },
+  {
+    "id": "bihar_patna",
+    "state": "Bihar",
+    "district": "Patna",
+    "lat": 25.5941,
+    "lon": 85.1376
+  },
+  {
+    "id": "bihar_gaya",
+    "state": "Bihar",
+    "district": "Gaya",
+    "lat": 24.7914,
+    "lon": 85.0002
+  },
+  {
+    "id": "bihar_muzaffarpur",
+    "state": "Bihar",
+    "district": "Muzaffarpur",
+    "lat": 26.1209,
+    "lon": 85.3647
+  },
+  {
+    "id": "west_bengal_kolkata",
+    "state": "West Bengal",
+    "district": "Kolkata",
+    "lat": 22.5726,
+    "lon": 88.3639
+  },
+  {
+    "id": "west_bengal_howrah",
+    "state": "West Bengal",
+    "district": "Howrah",
+    "lat": 22.5958,
+    "lon": 88.2636
+  },
+  {
+    "id": "west_bengal_darjeeling",
+    "state": "West Bengal",
+    "district": "Darjeeling",
+    "lat": 27.041,
+    "lon": 88.2663
+  }
+]

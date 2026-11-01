@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Offline flavor: explicitly NO INTERNET permission.
+     This is the default flavor and keeps the original 100% offline promise. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- No INTERNET. No ACCESS_NETWORK_STATE. No location.
+         This manifest intentionally empty of network permissions. -->
+</manifest>
+

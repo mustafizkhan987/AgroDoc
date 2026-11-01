@@ -1,0 +1,28 @@
+# Gradle and Android build output
+.gradle/
+.kotlin/
+**/build/
+
+# Local Android SDK configuration
+local.properties
+
+# Android Studio user state
+.idea/
+*.iml
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local environment and signing secrets
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+
+# OS files
+.DS_Store
+Thumbs.db
