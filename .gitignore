@@ -29,3 +29,8 @@ ml/exports/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Compiled APK export directory
+APKs/
+*.apk
+*.idsig
