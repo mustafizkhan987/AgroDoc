@@ -235,3 +235,38 @@ Assumptions made where specifications were ambiguous. All noted here rather than
 | A7 | "25 Karnataka-relevant crops" minimum for crops.json | Per spec; more may be added as data is verified |
 | A8 | History is accessible from Home "See all" and from Settings, not a dedicated bottom-nav tab | 5-tab limit with Scan as a dedicated tab (see ADR-007) |
 
+
+
+---
+
+## ADR-011: Room Database v3 — My Farm Plots, Activity Logs & Migration Path
+
+**Date:** 2026-11-15  
+**Status:** ACCEPTED  
+
+### Context
+Farmers need a way to manage specific parcels of land ("Plots"), track Days After Sowing (DAS), monitor current growth stage milestones according to `crops.json`, record farm management actions (fertilizer, spray, irrigation, harvest), and export records for local agricultural credit/insurance documentation.
+
+### Decision
+1. Introduce `PlotEntity` (table `plots`): `id`, `name`, `cropId`, `area`, `areaUnit`, `sowingDateEpochDays`, `soilType`, `irrigationType`, `notes`, `createdAt`.
+2. Introduce `FarmLogEntity` (table `farm_logs`): `id`, `plotId` (foreign key indexed), `logType` (`SOWING`, `FERTILIZER`, `IRRIGATION`, `SPRAY`, `OBSERVATION`, `HARVEST`), `notes`, `costInr`, `timestamp`.
+3. Provide DAOs `PlotDao` and `FarmLogDao` with observable Kotlin Coroutines `Flow` streams.
+4. Implement explicit migration `MIGRATION_2_3` creating `plots` and `farm_logs` tables and indices.
+5. Provide in-app CSV generation dispatched via the Android System Share Sheet (`Intent.ACTION_SEND`).
+
+---
+
+## ADR-012: Full Online / Connected Architecture & Push Disease Alerts
+
+**Date:** 2026-11-15  
+**Status:** ACCEPTED  
+
+### Context
+The user requested completing the app with full online functionality for the `connected` flavor while strictly preserving the privacy guarantees for sensitive crop scans.
+
+### Decision
+1. **Network Scope**: The `connected` flavor declares `INTERNET` and `ACCESS_NETWORK_STATE` to communicate with Open-Meteo REST API (`OpenMeteoWeatherRepository`), refreshing 7-day temperature, humidity, rainfall, and leaf-wetness proxies.
+2. **14-Day Tempograph Canvas**: A custom Jetpack Compose canvas component renders historical + 7-day forecast data with cubic Bézier min/max temperature bands, precipitation vertical bars, today marker line, and touch inspection.
+3. **Background Worker**: `WeatherSyncWorker` scheduled via AndroidX `WorkManager` every 6 hours with `NetworkType.CONNECTED` constraint.
+4. **Push Alerts**: When `DiseaseRiskEngine` identifies `RiskLevel.HIGH` for any crop in the user's "My Crops" list, `DiseaseAlertNotifier` posts an actionable system notification with channel `agrodoc_disease_alerts`.
+5. **Knowledge Assistant**: Hybrid 2-tier architecture. Tier A executes pure local BM25 indexing over bundled official agronomy assets. Tier B activates online fallback advisory in the `connected` flavor when network is available.

@@ -1,0 +1,13 @@
+{
+  "status": "not_run",
+  "reason": "Phase 1 human gate is pending: datasets have not been downloaded or approved, and no GPU training has run.",
+  "metrics": null,
+  "calibration": null,
+  "field_drop": null,
+  "open_set_reject_auroc": null,
+  "trust_score_auroc": null,
+  "deletion_insertion_faithfulness": null,
+  "on_device_latency_ms": null,
+  "dataset_fingerprints": null,
+  "verified": false
+}

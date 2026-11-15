@@ -1,0 +1,156 @@
+[
+  {
+    "diseaseId": "tomato_early_blight",
+    "cropId": "tomato",
+    "tempCRange": [
+      24.0,
+      30.0
+    ],
+    "minRhPercent": 80,
+    "minHoursRhPerDay": 8,
+    "minRainyDays": 2,
+    "windowDays": 7,
+    "source": "UAS Bengaluru Package of Practices / TNAU Agritech Portal",
+    "verified": true
+  },
+  {
+    "diseaseId": "tomato_late_blight",
+    "cropId": "tomato",
+    "tempCRange": [
+      12.0,
+      24.0
+    ],
+    "minRhPercent": 90,
+    "minHoursRhPerDay": 10,
+    "minRainyDays": 2,
+    "windowDays": 7,
+    "source": "CPRI Shimla / IIHR Bengaluru",
+    "verified": true
+  },
+  {
+    "diseaseId": "potato_early_blight",
+    "cropId": "potato",
+    "tempCRange": [
+      22.0,
+      28.0
+    ],
+    "minRhPercent": 80,
+    "minHoursRhPerDay": 8,
+    "minRainyDays": 2,
+    "windowDays": 7,
+    "source": "CPRI Shimla Potato Disease Guidelines",
+    "verified": true
+  },
+  {
+    "diseaseId": "potato_late_blight",
+    "cropId": "potato",
+    "tempCRange": [
+      10.0,
+      22.0
+    ],
+    "minRhPercent": 90,
+    "minHoursRhPerDay": 10,
+    "minRainyDays": 2,
+    "windowDays": 7,
+    "source": "CPRI Shimla Potato Disease Guidelines",
+    "verified": true
+  },
+  {
+    "diseaseId": "paddy_blast",
+    "cropId": "paddy",
+    "tempCRange": [
+      20.0,
+      28.0
+    ],
+    "minRhPercent": 85,
+    "minHoursRhPerDay": 10,
+    "minRainyDays": 3,
+    "windowDays": 7,
+    "source": "ICAR-NRRI Cuttack / UAS Bengaluru",
+    "verified": true
+  },
+  {
+    "diseaseId": "paddy_brown_spot",
+    "cropId": "paddy",
+    "tempCRange": [
+      25.0,
+      32.0
+    ],
+    "minRhPercent": 80,
+    "minHoursRhPerDay": 6,
+    "minRainyDays": 1,
+    "windowDays": 7,
+    "source": "UAS Dharwad Rice Guidelines",
+    "verified": true
+  },
+  {
+    "diseaseId": "paddy_bacterial_leaf_blight",
+    "cropId": "paddy",
+    "tempCRange": [
+      25.0,
+      34.0
+    ],
+    "minRhPercent": 85,
+    "minHoursRhPerDay": 8,
+    "minRainyDays": 3,
+    "windowDays": 7,
+    "source": "ICAR-IIRR Hyderabad",
+    "verified": true
+  },
+  {
+    "diseaseId": "grape_downy_mildew",
+    "cropId": "grape",
+    "tempCRange": [
+      20.0,
+      25.0
+    ],
+    "minRhPercent": 85,
+    "minHoursRhPerDay": 10,
+    "minRainyDays": 2,
+    "windowDays": 7,
+    "source": "NRC Grapes Pune / ICAR",
+    "verified": true
+  },
+  {
+    "diseaseId": "grape_powdery_mildew",
+    "cropId": "grape",
+    "tempCRange": [
+      25.0,
+      32.0
+    ],
+    "minRhPercent": 60,
+    "minHoursRhPerDay": 4,
+    "minRainyDays": 0,
+    "windowDays": 7,
+    "source": "NRC Grapes Pune / ICAR",
+    "verified": true
+  },
+  {
+    "diseaseId": "cotton_bacterial_blight",
+    "cropId": "cotton",
+    "tempCRange": [
+      28.0,
+      35.0
+    ],
+    "minRhPercent": 85,
+    "minHoursRhPerDay": 8,
+    "minRainyDays": 2,
+    "windowDays": 7,
+    "source": "CICR Nagpur",
+    "verified": true
+  },
+  {
+    "diseaseId": "arecanut_koleroga",
+    "cropId": "arecanut",
+    "tempCRange": [
+      22.0,
+      28.0
+    ],
+    "minRhPercent": 95,
+    "minHoursRhPerDay": 14,
+    "minRainyDays": 4,
+    "windowDays": 7,
+    "source": "CPCRI Regional Station Vittal",
+    "verified": true
+  }
+]

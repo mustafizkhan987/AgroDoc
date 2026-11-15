@@ -205,4 +205,5 @@
     <string name="fertilizer_potassium">Potassium (K₂O)</string>
     <string name="fertilizer_application_timing">Application timing</string>
     <string name="fertilizer_calculate_save">Calculate and save plan</string>
+    <string name="nav_farm">My Farm</string>
 </resources>

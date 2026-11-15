@@ -51,3 +51,40 @@ val MIGRATION_1_2 = object : Migration(1, 2) {
     }
 }
 
+val MIGRATION_2_3 = object : Migration(2, 3) {
+    override fun migrate(db: SupportSQLiteDatabase) {
+        db.execSQL(
+            """
+            CREATE TABLE IF NOT EXISTS plots (
+                id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+                name TEXT NOT NULL,
+                cropId TEXT NOT NULL,
+                variety TEXT NOT NULL,
+                areaValue REAL NOT NULL,
+                areaUnit TEXT NOT NULL,
+                sowingDateEpoch INTEGER NOT NULL,
+                districtId TEXT NOT NULL,
+                irrigationType TEXT NOT NULL,
+                soilTestJson TEXT DEFAULT NULL,
+                photoUri TEXT DEFAULT NULL,
+                createdAt INTEGER NOT NULL
+            )
+            """.trimIndent()
+        )
+
+        db.execSQL(
+            """
+            CREATE TABLE IF NOT EXISTS farm_logs (
+                id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+                plotId INTEGER NOT NULL,
+                logType TEXT NOT NULL,
+                note TEXT NOT NULL,
+                photoUri TEXT DEFAULT NULL,
+                weatherSnapshotJson TEXT DEFAULT NULL,
+                loggedAtEpoch INTEGER NOT NULL
+            )
+            """.trimIndent()
+        )
+    }
+}
+

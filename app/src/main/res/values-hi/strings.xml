@@ -207,4 +207,5 @@
     <string name="fertilizer_potassium">पोटैशियम (K₂O)</string>
     <string name="fertilizer_application_timing">खाद देने का समय</string>
     <string name="fertilizer_calculate_save">गणना करके योजना सहेजें</string>
+    <string name="nav_farm">मेरा खेत</string>
 </resources>

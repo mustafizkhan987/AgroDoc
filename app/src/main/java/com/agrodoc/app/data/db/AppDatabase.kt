@@ -10,8 +10,10 @@ import androidx.room.TypeConverters
         WeatherCacheEntity::class,
         MyCropEntity::class,
         FertilizerPlanEntity::class,
+        PlotEntity::class,
+        FarmLogEntity::class,
     ],
-    version = 2,
+    version = 3,
     exportSchema = false,
 )
 @TypeConverters(Converters::class)
@@ -20,4 +22,6 @@ abstract class AppDatabase : RoomDatabase() {
     abstract fun weatherCacheDao(): WeatherCacheDao
     abstract fun myCropDao(): MyCropDao
     abstract fun fertilizerPlanDao(): FertilizerPlanDao
+    abstract fun plotDao(): PlotDao
+    abstract fun farmLogDao(): FarmLogDao
 }

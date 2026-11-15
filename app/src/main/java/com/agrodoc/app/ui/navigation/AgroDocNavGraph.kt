@@ -100,6 +100,12 @@ fun AgroDocNavGraph(
             )
         }
 
+        composable(NavRoutes.FARM) {
+            com.agrodoc.app.ui.screens.farm.FarmScreen(
+                onNavigateToFertilizer = { navController.navigate(NavRoutes.fertilizer(it)) }
+            )
+        }
+
         composable(NavRoutes.LIBRARY) { LibraryScreen(onDiseaseClick = { navController.navigate(NavRoutes.diseaseDetail(it)) }) }
         composable(NavRoutes.DISEASE_DETAIL) { entry -> DiseaseDetailScreen(entry.arguments?.getString("diseaseId").orEmpty(), onBack = { navController.popBackStack() }) }
         composable(NavRoutes.ASSISTANT) { AssistantScreen() }

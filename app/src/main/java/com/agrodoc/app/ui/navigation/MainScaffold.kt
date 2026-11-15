@@ -2,6 +2,7 @@ package com.agrodoc.app.ui.navigation
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Agriculture
 import androidx.compose.material.icons.filled.Eco
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.History
@@ -29,9 +30,9 @@ private data class BottomNavItem(
 private val bottomNavItems = listOf(
     BottomNavItem(NavRoutes.HOME, R.string.nav_home, Icons.Default.Home),
     BottomNavItem(NavRoutes.CROPS, R.string.nav_crops, Icons.Default.Eco),
+    BottomNavItem(NavRoutes.FARM, R.string.nav_farm, Icons.Default.Agriculture),
     BottomNavItem(NavRoutes.LIBRARY, R.string.nav_library, Icons.Default.MenuBook),
     BottomNavItem(NavRoutes.ASSISTANT, R.string.nav_assistant, Icons.Default.QuestionAnswer),
-    BottomNavItem(NavRoutes.HISTORY, R.string.nav_history, Icons.Default.History),
     BottomNavItem(NavRoutes.SETTINGS, R.string.nav_settings, Icons.Default.Settings),
 )
 

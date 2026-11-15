@@ -3,9 +3,12 @@ package com.agrodoc.app.di
 import android.content.Context
 import androidx.room.Room
 import com.agrodoc.app.data.db.AppDatabase
+import com.agrodoc.app.data.db.FarmLogDao
 import com.agrodoc.app.data.db.FertilizerPlanDao
 import com.agrodoc.app.data.db.MIGRATION_1_2
+import com.agrodoc.app.data.db.MIGRATION_2_3
 import com.agrodoc.app.data.db.MyCropDao
+import com.agrodoc.app.data.db.PlotDao
 import com.agrodoc.app.data.db.ScanDao
 import com.agrodoc.app.data.db.WeatherCacheDao
 import com.agrodoc.app.data.prefs.SettingsRepository
@@ -24,7 +27,7 @@ object AppModule {
     @Singleton
     fun provideDatabase(@ApplicationContext ctx: Context): AppDatabase =
         Room.databaseBuilder(ctx, AppDatabase::class.java, "agrodoc.db")
-            .addMigrations(MIGRATION_1_2)
+            .addMigrations(MIGRATION_1_2, MIGRATION_2_3)
             .fallbackToDestructiveMigrationOnDowngrade()
             .build()
 
@@ -46,6 +49,14 @@ object AppModule {
 
     @Provides
     @Singleton
+    fun providePlotDao(db: AppDatabase): PlotDao = db.plotDao()
+
+    @Provides
+    @Singleton
+    fun provideFarmLogDao(db: AppDatabase): FarmLogDao = db.farmLogDao()
+
+    @Provides
+    @Singleton
     fun provideSettingsRepository(@ApplicationContext ctx: Context): SettingsRepository =
         SettingsRepository(ctx)
 
@@ -58,4 +69,9 @@ object AppModule {
     @Singleton
     fun provideAnalyzer(@ApplicationContext ctx: Context): com.agrodoc.app.ml.Analyzer =
         com.agrodoc.app.ml.Analyzer(ctx)
+
+    @Provides
+    @Singleton
+    fun provideAdvisorEngine(impl: com.agrodoc.app.data.advisor.DefaultAdvisorEngine): com.agrodoc.app.domain.repository.AdvisorEngine =
+        impl
 }

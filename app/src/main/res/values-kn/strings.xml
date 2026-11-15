@@ -207,4 +207,5 @@
     <string name="fertilizer_potassium">ಪೊಟ್ಯಾಸಿಯಂ (K₂O)</string>
     <string name="fertilizer_application_timing">ಅನ್ವಯಿಸುವ ಸಮಯ</string>
     <string name="fertilizer_calculate_save">ಲೆಕ್ಕಿಸಿ ಮತ್ತು ಯೋಜನೆ ಉಳಿಸಿ</string>
+    <string name="nav_farm">ನನ್ನ ಜಮೀನು</string>
 </resources>

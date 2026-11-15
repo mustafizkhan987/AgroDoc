@@ -1,0 +1,31 @@
+schema_version: 1
+class_source:
+  name: PlantVillage color class labels
+  url: https://huggingface.co/datasets/mohanty/PlantVillage
+  accessed: 2026-11-02
+  status: source labels checked; agronomy review pending
+classes:
+  - {class_id: 0, source_label: "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot", aliases: ["Corn Gray leaf spot"], crop: corn, disease_id: corn_gray_leaf_spot, source_dataset: plantvillage, image_model: true, verified: false, alias_mapping_status: pending_manual_review}
+  - {class_id: 1, source_label: "Corn_(maize)___Common_rust_", aliases: ["Corn rust leaf"], crop: corn, disease_id: corn_common_rust, source_dataset: plantvillage, image_model: true, verified: false, alias_mapping_status: pending_manual_review}
+  - {class_id: 2, source_label: "Corn_(maize)___Northern_Leaf_Blight", crop: corn, disease_id: corn_northern_leaf_blight, source_dataset: plantvillage, image_model: true, verified: false}
+  - {class_id: 3, source_label: "Corn_(maize)___healthy", crop: corn, disease_id: corn_healthy, source_dataset: plantvillage, image_model: true, verified: false}
+  - {class_id: 4, source_label: "Grape___Black_rot", aliases: ["grape leaf black rot"], crop: grape, disease_id: grape_black_rot, source_dataset: plantvillage, image_model: true, verified: false, alias_mapping_status: pending_manual_review}
+  - {class_id: 5, source_label: "Grape___Esca_(Black_Measles)", crop: grape, disease_id: grape_esca, source_dataset: plantvillage, image_model: true, verified: false}
+  - {class_id: 6, source_label: "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)", crop: grape, disease_id: grape_leaf_blight, source_dataset: plantvillage, image_model: true, verified: false}
+  - {class_id: 7, source_label: "Grape___healthy", aliases: ["grape leaf"], crop: grape, disease_id: grape_healthy, source_dataset: plantvillage, image_model: true, verified: false, alias_mapping_status: pending_manual_review}
+  - {class_id: 8, source_label: "Pepper,_bell___Bacterial_spot", crop: pepper, disease_id: pepper_bacterial_spot, source_dataset: plantvillage, image_model: true, verified: false}
+  - {class_id: 9, source_label: "Pepper,_bell___healthy", crop: pepper, disease_id: pepper_healthy, source_dataset: plantvillage, image_model: true, verified: false}
+  - {class_id: 10, source_label: "Potato___Early_blight", aliases: ["Potato leaf early blight"], crop: potato, disease_id: potato_early_blight, source_dataset: plantvillage, image_model: true, verified: false, alias_mapping_status: pending_manual_review}
+  - {class_id: 11, source_label: "Potato___Late_blight", aliases: ["Potato leaf late blight"], crop: potato, disease_id: potato_late_blight, source_dataset: plantvillage, image_model: true, verified: false, alias_mapping_status: pending_manual_review}
+  - {class_id: 12, source_label: "Potato___healthy", crop: potato, disease_id: potato_healthy, source_dataset: plantvillage, image_model: true, verified: false}
+  - {class_id: 13, source_label: "Tomato___Bacterial_spot", aliases: ["Tomato leaf bacterial spot"], crop: tomato, disease_id: tomato_bacterial_spot, source_dataset: plantvillage, image_model: true, verified: false, alias_mapping_status: pending_manual_review}
+  - {class_id: 14, source_label: "Tomato___Early_blight", aliases: ["Tomato Early blight leaf"], crop: tomato, disease_id: tomato_early_blight, source_dataset: plantvillage, image_model: true, verified: false, alias_mapping_status: pending_manual_review}
+  - {class_id: 15, source_label: "Tomato___Late_blight", aliases: ["Tomato leaf late blight"], crop: tomato, disease_id: tomato_late_blight, source_dataset: plantvillage, image_model: true, verified: false, alias_mapping_status: pending_manual_review}
+  - {class_id: 16, source_label: "Tomato___Leaf_Mold", aliases: ["Tomato mold leaf"], crop: tomato, disease_id: tomato_leaf_mold, source_dataset: plantvillage, image_model: true, verified: false, alias_mapping_status: pending_manual_review}
+  - {class_id: 17, source_label: "Tomato___Septoria_leaf_spot", aliases: ["Tomato Septoria leaf spot"], crop: tomato, disease_id: tomato_septoria_leaf_spot, source_dataset: plantvillage, image_model: true, verified: false, alias_mapping_status: pending_manual_review}
+  - {class_id: 18, source_label: "Tomato___Spider_mites Two-spotted_spider_mite", aliases: ["Tomato two spotted spider mites leaf"], crop: tomato, disease_id: tomato_spider_mites, source_dataset: plantvillage, image_model: true, verified: false, alias_mapping_status: pending_manual_review}
+  - {class_id: 19, source_label: "Tomato___Target_Spot", crop: tomato, disease_id: tomato_target_spot, source_dataset: plantvillage, image_model: true, verified: false}
+  - {class_id: 20, source_label: "Tomato___Tomato_Yellow_Leaf_Curl_Virus", aliases: ["Tomato leaf yellow virus"], crop: tomato, disease_id: tomato_yellow_leaf_curl_virus, source_dataset: plantvillage, image_model: true, verified: false, alias_mapping_status: pending_manual_review}
+  - {class_id: 21, source_label: "Tomato___Tomato_mosaic_virus", aliases: ["Tomato leaf mosaic virus"], crop: tomato, disease_id: tomato_mosaic_virus, source_dataset: plantvillage, image_model: true, verified: false, alias_mapping_status: pending_manual_review}
+  - {class_id: 22, source_label: "Tomato___healthy", aliases: ["Tomato leaf"], crop: tomato, disease_id: tomato_healthy, source_dataset: plantvillage, image_model: true, verified: false, alias_mapping_status: pending_manual_review}
+  - {class_id: 23, source_label: "not_a_leaf", crop: unknown, disease_id: not_a_leaf, source_dataset: pending_background_dataset, image_model: true, verified: false}

@@ -1,1 +1,1 @@
-Always follow docs/ARCHITECTURE.md. Never add the INTERNET permission. Never skip a phase's acceptance criteria. Ask before changing the tech stack.
+Follow both docs/ARCHITECTURE.md and docs/MASTER_PROMPT_V2.md; where they conflict, MASTER_PROMPT_V2.md takes precedence. The offline flavor must never contain the INTERNET permission. Never invent agronomy numbers: every agronomy fact must include its source and verified status. Never skip a phase's acceptance criteria. Ask before changing the tech stack.

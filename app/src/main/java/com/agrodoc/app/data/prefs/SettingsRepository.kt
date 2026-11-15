@@ -41,6 +41,8 @@ class SettingsRepository @Inject constructor(@ApplicationContext private val ctx
     val localeTag: Flow<String> =
         ctx.dataStore.data.map { it[KEY_LOCALE_TAG] ?: "kn" }
 
+    val language: Flow<String> get() = localeTag
+
     val voiceEnabled: Flow<Boolean> =
         ctx.dataStore.data.map { it[KEY_VOICE_ENABLED] ?: true }
 

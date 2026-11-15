@@ -207,4 +207,5 @@
     <string name="fertilizer_potassium">पालाश (K₂O)</string>
     <string name="fertilizer_application_timing">खत देण्याची वेळ</string>
     <string name="fertilizer_calculate_save">गणना करून योजना जतन करा</string>
+    <string name="nav_farm">माझे शेत</string>
 </resources>

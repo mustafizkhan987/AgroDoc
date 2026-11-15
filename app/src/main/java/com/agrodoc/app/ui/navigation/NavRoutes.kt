@@ -6,6 +6,7 @@ object NavRoutes {
     const val HOME = "home"
     const val CROPS = "crops"
     const val CROP_DETAIL = "crop_detail/{cropId}"
+    const val FARM = "farm"
     const val LIBRARY = "library"
     const val DISEASE_DETAIL = "disease_detail/{diseaseId}"
     const val ASSISTANT = "assistant"

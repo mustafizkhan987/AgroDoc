@@ -1,4 +1,6 @@
-# Datasets Documentation for AgroDoc ML Pipeline
+# Legacy Dataset Documentation — Superseded
+
+Use [the current ML dataset ledger](../ml/DATASETS.md) for dataset source, version, license, and review status. The historical counts, class mappings, license statements, and training claims below have not all been verified against pinned source versions and must not be used as approval to train or release.
 
 This document details all datasets integrated or evaluated for training and calibrating AgroDoc's on-device diagnostic model.
 

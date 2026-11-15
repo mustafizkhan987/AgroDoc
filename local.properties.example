@@ -1,0 +1,15 @@
+## AgroDoc Local Properties Template
+## Copy this file to `local.properties` and fill in your local Android SDK path.
+
+# Location of your Android SDK:
+# Windows example: sdk.dir=C\:\\Users\\<YourUsername>\\AppData\\Local\\Android\\Sdk
+# macOS example: sdk.dir=/Users/<YourUsername>/Library/Android/sdk
+# Linux example: sdk.dir=/home/<YourUsername>/Android/Sdk
+sdk.dir=
+
+# Optional: Supabase credentials for cloud authentication & sync
+supabase.url=https://your-project.supabase.co
+supabase.anon.key=your-anon-public-key
+
+# Optional: OpenWeatherMap API key (Open-Meteo is used by default with zero key required)
+openweather.api.key=

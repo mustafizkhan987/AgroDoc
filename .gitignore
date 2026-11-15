@@ -15,6 +15,9 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+ml/data/
+ml/cache/
+ml/exports/
 
 # Local environment and signing secrets
 .env

@@ -43,18 +43,19 @@ android {
     // ── Product flavors ────────────────────────────────────────────────────────
     flavorDimensions += "network"
     productFlavors {
-        create("offline") {
-            dimension = "network"
-            applicationIdSuffix = ""
-            versionNameSuffix = ""
-            // Manifest overlay removes INTERNET if ever accidentally added
-            // The offline merged manifest must NOT contain INTERNET (tested in unit test)
-        }
         create("connected") {
             dimension = "network"
-            applicationIdSuffix = ".connected"
-            versionNameSuffix = "-connected"
+            isDefault = true
+            applicationIdSuffix = ""
+            versionNameSuffix = ""
             // AndroidManifest in connected source set declares INTERNET + ACCESS_NETWORK_STATE
+        }
+        create("offline") {
+            dimension = "network"
+            applicationIdSuffix = ".offline"
+            versionNameSuffix = "-offline"
+            // Manifest overlay removes INTERNET if ever accidentally added
+            // The offline merged manifest must NOT contain INTERNET (tested in unit test)
         }
     }
 
@@ -151,6 +152,7 @@ dependencies {
     add("connectedImplementation", "com.squareup.retrofit2:converter-kotlinx-serialization:2.11.0")
     add("connectedImplementation", "com.squareup.okhttp3:okhttp:4.12.0")
     add("connectedImplementation", "com.squareup.okhttp3:logging-interceptor:4.12.0")
+    add("connectedImplementation", "androidx.work:work-runtime-ktx:2.9.1")
 
     // ── Permissions (Accompanist) ─────────────────────────────────────────────
     implementation("com.google.accompanist:accompanist-permissions:0.36.0")

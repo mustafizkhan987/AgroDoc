@@ -85,6 +85,11 @@ fun HomeScreen(
             )
         }
 
+        // 14-Day Tempograph Canvas Chart
+        item {
+            TempographCard(weather = uiState.weather)
+        }
+
         // Disease Alerts Card (Secondary Signal from Weather)
         if (uiState.diseaseAlerts.isNotEmpty()) {
             item {
